@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_raze_cancha_domain_Estadisticas" items="${estadisticases}" z="PSggKXff2Y3nBOgR/YJscalceOw=">
+        <table:table data="${estadisticases}" id="l_com_raze_cancha_domain_Estadisticas" path="/estadisticases" z="iYz91fKtMF+Pn931JiLeKdz7CUY=">
+            <table:column id="c_com_raze_cancha_domain_Estadisticas_alineacion" property="alineacion" z="jgvF47MmHZcbUfAGWU36JsrfmEA="/>
+            <table:column id="c_com_raze_cancha_domain_Estadisticas_accion" property="accion" z="ktYnFQJ1+DRZJ7oK+A21BNmZ2Jk="/>
+            <table:column id="c_com_raze_cancha_domain_Estadisticas_minuto" property="minuto" z="ls/5MofwbCeRJpCm1MLS1c+bJag="/>
+            <table:column id="c_com_raze_cancha_domain_Estadisticas_usuario" property="usuario" z="+jeAmBc/gQFzktV0lcYM5kVXqDU="/>
+            <table:column date="true" dateTimePattern="${estadisticas_fechacreacion_date_format}" id="c_com_raze_cancha_domain_Estadisticas_fechaCreacion" property="fechaCreacion" z="RrLzNXHVLGOwwYfXubd6/U70zpc="/>
+            <table:column date="true" dateTimePattern="${estadisticas_fechamodificacion_date_format}" id="c_com_raze_cancha_domain_Estadisticas_fechaModificacion" property="fechaModificacion" z="9uKmVlwnjOXha6zoV6E1XG5+bT4="/>
+        </table:table>
+    </page:list>
+</div>

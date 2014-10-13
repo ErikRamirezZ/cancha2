@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_raze_cancha_domain_Cargo" items="${cargoes}" z="Vdu7Nx8Ip5LtRD3Lzdpm9AzLXbo=">
+        <table:table data="${cargoes}" id="l_com_raze_cancha_domain_Cargo" path="/cargoes" z="/oN9e/sC9iTkbRFdYraf69O7w74=">
+            <table:column id="c_com_raze_cancha_domain_Cargo_conceptoCobro" property="conceptoCobro" z="k/rWvQtbxbkMjoXosCGPv0qdBW8="/>
+            <table:column id="c_com_raze_cancha_domain_Cargo_torneo" property="torneo" z="FuvRKO2OGQfZrLr+Dd74Cn2lN+o="/>
+            <table:column id="c_com_raze_cancha_domain_Cargo_equipo" property="equipo" z="29I7UoQgr8/+OusjjiTFNSaDvms="/>
+            <table:column id="c_com_raze_cancha_domain_Cargo_monto" property="monto" z="93J15mjMS9LVhxWsWyqMyBY8ZoA="/>
+            <table:column id="c_com_raze_cancha_domain_Cargo_observaciones" property="observaciones" z="Tifgwv2flSW6n84vHhNBG9YNpw0="/>
+            <table:column id="c_com_raze_cancha_domain_Cargo_status" property="status" z="ctK0jFH0Q/GzLHmfXnJK6RxF5pg="/>
+        </table:table>
+    </page:list>
+</div>

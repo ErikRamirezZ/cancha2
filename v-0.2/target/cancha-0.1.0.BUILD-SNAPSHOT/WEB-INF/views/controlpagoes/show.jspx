@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_domain_ControlPago" object="${controlpago}" path="/controlpagoes" z="saNWN/KPO1woyWEUN+kCI+TP+Cs=">
+        <field:display field="empresa" id="s_com_raze_cancha_domain_ControlPago_empresa" object="${controlpago}" z="QFj9m0ddp89pufGCjG2W2FafKOw="/>
+        <field:display field="tarifa" id="s_com_raze_cancha_domain_ControlPago_tarifa" object="${controlpago}" z="ThVyQIP5V5jhgDMtfMdGCzEUK+c="/>
+        <field:display field="cuenta" id="s_com_raze_cancha_domain_ControlPago_cuenta" object="${controlpago}" z="7sH9ooeY8sbxuzOrunl8IGodMl0="/>
+        <field:display field="noReferencia" id="s_com_raze_cancha_domain_ControlPago_noReferencia" object="${controlpago}" z="RzedzmMwJy261O0ZTQKNWL15ygc="/>
+        <field:display field="tipoTarjeta" id="s_com_raze_cancha_domain_ControlPago_tipoTarjeta" object="${controlpago}" z="rstijo+eNKXI0WsVdGOm2dvfk8I="/>
+        <field:display field="noTC" id="s_com_raze_cancha_domain_ControlPago_noTC" object="${controlpago}" z="UhnS23LpooyOxb3pOrcfXVqal94="/>
+        <field:display field="codigoSeguridad" id="s_com_raze_cancha_domain_ControlPago_codigoSeguridad" object="${controlpago}" z="qKox7JTVC4kYkxedKfVET45VS9c="/>
+        <field:display field="fechaVencimientoTC" id="s_com_raze_cancha_domain_ControlPago_fechaVencimientoTC" object="${controlpago}" z="V7zgNrgW0FnfMD9fjgyXniV03EM="/>
+        <field:display field="usuario" id="s_com_raze_cancha_domain_ControlPago_usuario" object="${controlpago}" z="/vqHGB0w5KljXAc1ZWvIRntB3hQ="/>
+        <field:display date="true" dateTimePattern="${controlPago_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_domain_ControlPago_fechaCreacion" object="${controlpago}" z="BOLyUeeatVuRzNBPXLjBv5y6CJQ="/>
+        <field:display date="true" dateTimePattern="${controlPago_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_domain_ControlPago_fechaModificacion" object="${controlpago}" z="ziXJLr7IuT5xNsBKjKyfWlNYLmk="/>
+    </page:show>
+</div>

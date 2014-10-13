@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_raze_cancha_catalog_StatusEquipoJugador" modelAttribute="statusEquipoJugador" path="/statusequipojugadors" versionField="Version" z="MS3rHuOIAcPYBF6mzr4gPvgPjeQ=">
+        <field:input field="nombreStatusEquipoJugador" id="c_com_raze_cancha_catalog_StatusEquipoJugador_nombreStatusEquipoJugador" required="true" z="9KDmXHgRlW03KYGtjEDZcFSzYRo="/>
+        <field:input field="descripcion" id="c_com_raze_cancha_catalog_StatusEquipoJugador_descripcion" required="true" z="WZlC0s2dkgWH5McVOSWkBPSRGsA="/>
+        <field:checkbox field="activo" id="c_com_raze_cancha_catalog_StatusEquipoJugador_activo" z="k2BqJEbivlu/k8IloOfmnqKsMpg="/>
+        <field:select field="usuario" id="c_com_raze_cancha_catalog_StatusEquipoJugador_usuario" itemValue="id" items="${usuarios}" path="/usuarios" z="b9lzlgNP3V/nHixg4bQc/AyucHE="/>
+        <field:datetime dateTimePattern="${statusEquipoJugador_fechacreacion_date_format}" field="fechaCreacion" id="c_com_raze_cancha_catalog_StatusEquipoJugador_fechaCreacion" z="KJys7Gsi4u9dtQU2d1W8eS0Dobw="/>
+        <field:datetime dateTimePattern="${statusEquipoJugador_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_raze_cancha_catalog_StatusEquipoJugador_fechaModificacion" z="jabkEqeS4baf+8WsVaiR8QVRSaM="/>
+    </form:update>
+</div>

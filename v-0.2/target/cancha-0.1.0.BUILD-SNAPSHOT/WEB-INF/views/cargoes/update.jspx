@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_raze_cancha_domain_Cargo" modelAttribute="cargo" path="/cargoes" versionField="Version" z="7LBBg9mH7nhum2MDO36CJ87mRGk=">
+        <field:select field="conceptoCobro" id="c_com_raze_cancha_domain_Cargo_conceptoCobro" itemValue="id" items="${conceptocobroes}" path="/conceptocobroes" required="true" z="VtK5MtxVpnw7kb1NpDUxpkhJnUA="/>
+        <field:select field="torneo" id="c_com_raze_cancha_domain_Cargo_torneo" itemValue="id" items="${torneos}" path="/torneos" required="true" z="yTQdpNLyhzkPTDk/AtoeCmjsTiI="/>
+        <field:select field="equipo" id="c_com_raze_cancha_domain_Cargo_equipo" itemValue="id" items="${equipoes}" path="/equipoes" required="true" z="EpcYHQ6Xxnl6IjHgoOeyybFXmGU="/>
+        <field:input field="monto" id="c_com_raze_cancha_domain_Cargo_monto" required="true" z="VhmZ4dmWqBpMx5kJSUq2wVvNYJQ="/>
+        <field:input field="observaciones" id="c_com_raze_cancha_domain_Cargo_observaciones" z="DQACIvS7i9rEgSn+Fxq2gQNs4Tc="/>
+        <field:select field="status" id="c_com_raze_cancha_domain_Cargo_status" itemValue="id" items="${statuscargoabonoes}" path="/statuscargoabonoes" z="4RcRyNKl/rx0/p0S5fvpuqG0MM0="/>
+        <field:select field="abono" id="c_com_raze_cancha_domain_Cargo_abono" itemValue="id" items="${abonoes}" path="/abonoes" z="bZr5jCrsvAhxUQNQRXnlGIvxtY0="/>
+        <field:select field="usuario" id="c_com_raze_cancha_domain_Cargo_usuario" itemValue="id" items="${usuarios}" path="/usuarios" z="Tmgfkwy3e8djsp6/SB0/o3Z5XIQ="/>
+        <field:datetime dateTimePattern="${cargo_fechacreacion_date_format}" field="fechaCreacion" id="c_com_raze_cancha_domain_Cargo_fechaCreacion" z="STdNyd8pKVuc1bApybiG1e/SGkk="/>
+        <field:datetime dateTimePattern="${cargo_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_raze_cancha_domain_Cargo_fechaModificacion" z="DheBCAI4ugHGmTPEqqUKY+CS+zU="/>
+    </form:update>
+</div>

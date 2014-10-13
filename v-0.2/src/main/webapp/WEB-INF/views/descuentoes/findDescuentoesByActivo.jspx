@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByActivo" id="ff_com_raze_cancha_catalog_Descuento" path="/descuentoes" z="8GJhrH5wxsOFYno7OiW4BkkeC/o=">
+        <field:checkbox disableFormBinding="true" field="activo" id="f_com_raze_cancha_catalog_Descuento_activo" z="583on+Pfb1XFsjR8+aJMMGDMBCU="/>
+    </form:find>
+</div>

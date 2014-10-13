@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_raze_cancha_catalog_FechaVencimientoTC" items="${fechavencimientotcs}" z="OR02hgcfP2z82ZytVHXJTdSXvLc=">
+        <table:table data="${fechavencimientotcs}" id="l_com_raze_cancha_catalog_FechaVencimientoTC" path="/fechavencimientotcs" z="7TyKwAobsFBu7Ic/WbWb/ps3sv4=">
+            <table:column id="c_com_raze_cancha_catalog_FechaVencimientoTC_nombreFechaVencimientoTC" property="nombreFechaVencimientoTC" z="VO3UmKx18MQlNEcpzSgVYzB8JDY="/>
+            <table:column id="c_com_raze_cancha_catalog_FechaVencimientoTC_descripcion" property="descripcion" z="uboPEPfbPn0oqSU/+tY31sGmS7Q="/>
+            <table:column id="c_com_raze_cancha_catalog_FechaVencimientoTC_mes" property="mes" z="MsQMmTTuzsYvmX2bE9kSnmXK9Ug="/>
+            <table:column id="c_com_raze_cancha_catalog_FechaVencimientoTC_anio" property="anio" z="AOtDGps4tYlRllbvEIIpaRNYR6Q="/>
+            <table:column id="c_com_raze_cancha_catalog_FechaVencimientoTC_activo" property="activo" z="pAhsApHsSVNm/fWI8whTEi+ChhU="/>
+            <table:column id="c_com_raze_cancha_catalog_FechaVencimientoTC_usuario" property="usuario" z="LUtB+/13km3YdENAu7KwUrOL3Dg="/>
+        </table:table>
+    </page:list>
+</div>

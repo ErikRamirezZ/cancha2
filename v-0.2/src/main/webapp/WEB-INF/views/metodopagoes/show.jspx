@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_catalog_MetodoPago" object="${metodopago}" path="/metodopagoes" z="O2za8fs7BJwrP4IFoJ+wE/nUUKI=">
+        <field:display field="nombreMetodoPago" id="s_com_raze_cancha_catalog_MetodoPago_nombreMetodoPago" object="${metodopago}" z="L65bIxjL1a/VX0kl8PFhLHkZfVE="/>
+        <field:display field="descripcion" id="s_com_raze_cancha_catalog_MetodoPago_descripcion" object="${metodopago}" z="IIp4Drfkkgoh8gk9nixALCHCjec="/>
+        <field:display field="activo" id="s_com_raze_cancha_catalog_MetodoPago_activo" object="${metodopago}" z="aJ7G8/6bhqcLOYruvqPstrLxPR0="/>
+        <field:display field="usuario" id="s_com_raze_cancha_catalog_MetodoPago_usuario" object="${metodopago}" z="CLmprY2jfpTP7NUM3jhxLFUP5/4="/>
+        <field:display date="true" dateTimePattern="${metodoPago_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_catalog_MetodoPago_fechaCreacion" object="${metodopago}" z="TgT9nTukkMNUBfYj7SpOj7ObqRE="/>
+        <field:display date="true" dateTimePattern="${metodoPago_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_catalog_MetodoPago_fechaModificacion" object="${metodopago}" z="mLeOwvXsAZE2DAHuxD9U61IZ7q0="/>
+    </page:show>
+</div>

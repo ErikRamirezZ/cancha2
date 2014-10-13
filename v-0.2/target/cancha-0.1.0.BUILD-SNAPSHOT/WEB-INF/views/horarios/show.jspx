@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_domain_Horario" object="${horario}" path="/horarios" z="88bMTFo59xhq0cR3fuc8YKgsmS0=">
+        <field:display field="cancha" id="s_com_raze_cancha_domain_Horario_cancha" object="${horario}" z="NSDZLmDejZDZzpQK5jtL0Ov1dnc="/>
+        <field:display date="true" dateTimePattern="${horario_horainicio_date_format}" field="horaInicio" id="s_com_raze_cancha_domain_Horario_horaInicio" object="${horario}" z="gme280eEdVhuvzDHdvc/UMfjK9c="/>
+        <field:display field="duracion" id="s_com_raze_cancha_domain_Horario_duracion" object="${horario}" z="OkdZuQNlhQi2ASVVt3BTJYMuObQ="/>
+        <field:display field="lunes" id="s_com_raze_cancha_domain_Horario_lunes" object="${horario}" z="i2nmQCgGIiYBm25s8ttVbwg0nSQ="/>
+        <field:display field="martes" id="s_com_raze_cancha_domain_Horario_martes" object="${horario}" z="Dy059kUNql3RE0lNBvbdgCU0+yU="/>
+        <field:display field="miercoles" id="s_com_raze_cancha_domain_Horario_miercoles" object="${horario}" z="7SIqp7PcceqU5ArD26kQoQAFIh4="/>
+        <field:display field="jueves" id="s_com_raze_cancha_domain_Horario_jueves" object="${horario}" z="SqS3AsC2ESf/Rgo41pnvmG9+/CQ="/>
+        <field:display field="viernes" id="s_com_raze_cancha_domain_Horario_viernes" object="${horario}" z="lnNh5YGyLmNgNZcRvIH3/LYqSXU="/>
+        <field:display field="sabado" id="s_com_raze_cancha_domain_Horario_sabado" object="${horario}" z="HDwqGygv+RXu9n2HD887IQ8uGMQ="/>
+        <field:display field="domingo" id="s_com_raze_cancha_domain_Horario_domingo" object="${horario}" z="2kff0/nIqajZ0VnVUMpud5ynjDA="/>
+        <field:display field="activo" id="s_com_raze_cancha_domain_Horario_activo" object="${horario}" z="3sO1stQPFNx/Tj4bZnpnJfdX2GY="/>
+        <field:display field="usuario" id="s_com_raze_cancha_domain_Horario_usuario" object="${horario}" z="lbl4Eb+ico5+WbMhWEMPTJnWwTM="/>
+        <field:display date="true" dateTimePattern="${horario_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_domain_Horario_fechaCreacion" object="${horario}" z="XAqDX2dW0Nu9XXz3sVwUB828oJA="/>
+        <field:display date="true" dateTimePattern="${horario_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_domain_Horario_fechaModificacion" object="${horario}" z="Ba0vVAse7W+XAbA8Ji0kpJ1MITw="/>
+    </page:show>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_catalog_FechaVencimientoTC" object="${fechavencimientotc}" path="/fechavencimientotcs" z="eKiPOWgXIcppR7d1uhfMU6kk7Mo=">
+        <field:display field="nombreFechaVencimientoTC" id="s_com_raze_cancha_catalog_FechaVencimientoTC_nombreFechaVencimientoTC" object="${fechavencimientotc}" z="cR2qbklAzjNySyrksFLeDQuEE/Y="/>
+        <field:display field="descripcion" id="s_com_raze_cancha_catalog_FechaVencimientoTC_descripcion" object="${fechavencimientotc}" z="JFkNc6AT8F0Xkb4tDaX7Ba9t/DA="/>
+        <field:display field="mes" id="s_com_raze_cancha_catalog_FechaVencimientoTC_mes" object="${fechavencimientotc}" z="yfsqxgGYYWXiz/ZZZs1pkNSC90I="/>
+        <field:display field="anio" id="s_com_raze_cancha_catalog_FechaVencimientoTC_anio" object="${fechavencimientotc}" z="9JWL5EeAdo/YeAtRiRKsb5OK8IY="/>
+        <field:display field="activo" id="s_com_raze_cancha_catalog_FechaVencimientoTC_activo" object="${fechavencimientotc}" z="7/CO1SuolV1lHqyteOw+2OGhQnM="/>
+        <field:display field="usuario" id="s_com_raze_cancha_catalog_FechaVencimientoTC_usuario" object="${fechavencimientotc}" z="k7Uuqh2ObUI/V27b66RXI4QGku8="/>
+        <field:display date="true" dateTimePattern="${fechaVencimientoTC_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_catalog_FechaVencimientoTC_fechaCreacion" object="${fechavencimientotc}" z="OGoczp9WxyZjZ8NbNQdiBJTEfB0="/>
+        <field:display date="true" dateTimePattern="${fechaVencimientoTC_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_catalog_FechaVencimientoTC_fechaModificacion" object="${fechavencimientotc}" z="ae5Es6HeHGLBJEIsP/m6iCJfZrc="/>
+    </page:show>
+</div>

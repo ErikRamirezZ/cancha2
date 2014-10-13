@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_catalog_StatusCargoAbono" object="${statuscargoabono}" path="/statuscargoabonoes" z="e+aRZAYhIf4zSOl8gaIE+akgYB8=">
+        <field:display field="nombreStatusCargoAbono" id="s_com_raze_cancha_catalog_StatusCargoAbono_nombreStatusCargoAbono" object="${statuscargoabono}" z="niMyUGth9ZPY+0NiING/ZcalquU="/>
+        <field:display field="descripcion" id="s_com_raze_cancha_catalog_StatusCargoAbono_descripcion" object="${statuscargoabono}" z="qeGvLxBbT21pHoHtmUuYlbDzBHg="/>
+        <field:display field="activo" id="s_com_raze_cancha_catalog_StatusCargoAbono_activo" object="${statuscargoabono}" z="nzx21ONAlFJYlSeLI+0qdqriELU="/>
+        <field:display field="usuario" id="s_com_raze_cancha_catalog_StatusCargoAbono_usuario" object="${statuscargoabono}" z="QQ/1Q4xtYSCesxoDk9JqljtDFic="/>
+        <field:display date="true" dateTimePattern="${statusCargoAbono_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_catalog_StatusCargoAbono_fechaCreacion" object="${statuscargoabono}" z="mCRR2Ysx0UTCqMFg5YtNa8SRyW8="/>
+        <field:display date="true" dateTimePattern="${statusCargoAbono_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_catalog_StatusCargoAbono_fechaModificacion" object="${statuscargoabono}" z="9ShrJ8b78DApDfDT9dGZsSIgi7E="/>
+    </page:show>
+</div>

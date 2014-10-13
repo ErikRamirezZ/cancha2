@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_domain_Usuario" object="${usuario}" path="/usuarios" z="6W8zfrwfqe5/pY6TGZtuRO3aHYs=">
+        <field:display field="empresa" id="s_com_raze_cancha_domain_Usuario_empresa" object="${usuario}" z="OAWAS7yzqWMweJCoKqPcRNoH5T4="/>
+        <field:display field="nombre" id="s_com_raze_cancha_domain_Usuario_nombre" object="${usuario}" z="tCC763P5eDk/MppwIGSP1ydC+Oc="/>
+        <field:display field="apellidoPaterno" id="s_com_raze_cancha_domain_Usuario_apellidoPaterno" object="${usuario}" z="Nb92nOMK7kgtaooCUekmbg9RBx8="/>
+        <field:display field="apellidoMaterno" id="s_com_raze_cancha_domain_Usuario_apellidoMaterno" object="${usuario}" z="fInEDi10E+RI4QAFemBN5IZhXjI="/>
+        <field:display date="true" dateTimePattern="${usuario_fechanacimiento_date_format}" field="fechaNacimiento" id="s_com_raze_cancha_domain_Usuario_fechaNacimiento" object="${usuario}" z="lI5klmremOw/PhmFhPbSL2nuc8Q="/>
+        <field:display field="domicilio" id="s_com_raze_cancha_domain_Usuario_domicilio" object="${usuario}" z="h4amDpdmWFUIswVrHKYrc1ev4NQ="/>
+        <field:display field="telefono" id="s_com_raze_cancha_domain_Usuario_telefono" object="${usuario}" z="6gDL2bYpJxNPQy0ncfSBNwulmjw="/>
+        <field:display field="celular" id="s_com_raze_cancha_domain_Usuario_celular" object="${usuario}" z="zf6Y3bMlvkDEbhwtdU45yoCleuI="/>
+        <field:display field="correoE" id="s_com_raze_cancha_domain_Usuario_correoE" object="${usuario}" z="5WQJ1UxFUj2w6sH+7A0joUhdmNk="/>
+        <field:display field="password" id="s_com_raze_cancha_domain_Usuario_password" object="${usuario}" z="/mua3JL9oY1n4fSYznIsvyxF1vQ="/>
+        <field:display field="rol" id="s_com_raze_cancha_domain_Usuario_rol" object="${usuario}" z="KtTwQpXl058lJDOMBC9Q+1NbJy8="/>
+        <field:display field="numeroIntentos" id="s_com_raze_cancha_domain_Usuario_numeroIntentos" object="${usuario}" z="MUfZkw+b93zaJvH1wG1U3vwb9s0="/>
+        <field:display field="activo" id="s_com_raze_cancha_domain_Usuario_activo" object="${usuario}" z="VmvfZffUzJtnHDpvfA59a8Igang="/>
+        <field:display field="usuario" id="s_com_raze_cancha_domain_Usuario_usuario" object="${usuario}" z="0pvOZ+qkZ5DCc7NvFgpfp75KIow="/>
+        <field:display date="true" dateTimePattern="${usuario_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_domain_Usuario_fechaCreacion" object="${usuario}" z="l0ZhcEy/qXdhdh7Q1nTwLLawsG8="/>
+        <field:display date="true" dateTimePattern="${usuario_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_domain_Usuario_fechaModificacion" object="${usuario}" z="7RXS7OP0UOJIUbTeaFsHX6s/ue4="/>
+    </page:show>
+</div>

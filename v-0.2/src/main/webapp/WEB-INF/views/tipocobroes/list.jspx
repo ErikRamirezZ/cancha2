@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_raze_cancha_catalog_TipoCobro" items="${tipocobroes}" z="RhaLie83Jk927jMDFi2ZpT7FNzg=">
+        <table:table data="${tipocobroes}" id="l_com_raze_cancha_catalog_TipoCobro" path="/tipocobroes" z="0QfeldvTix18glxwL2d+VflTKm4=">
+            <table:column id="c_com_raze_cancha_catalog_TipoCobro_nombreTipoCobro" property="nombreTipoCobro" z="M+a/fNZEVHitOdGTRcvyHMDsgIU="/>
+            <table:column id="c_com_raze_cancha_catalog_TipoCobro_descripcion" property="descripcion" z="Z4oJwu6OOHUVAyxyxTLfNkBUfvc="/>
+            <table:column id="c_com_raze_cancha_catalog_TipoCobro_activo" property="activo" z="lRJ9FdejZ/ALe87bJ0GsQtnKwSw="/>
+            <table:column id="c_com_raze_cancha_catalog_TipoCobro_usuario" property="usuario" z="5fGqi/OcIZZuF/bJ6lhKQx7Ncjg="/>
+            <table:column date="true" dateTimePattern="${tipoCobro_fechacreacion_date_format}" id="c_com_raze_cancha_catalog_TipoCobro_fechaCreacion" property="fechaCreacion" z="GyF19F7/v1aZ054FgmI3agWnuIg="/>
+            <table:column date="true" dateTimePattern="${tipoCobro_fechamodificacion_date_format}" id="c_com_raze_cancha_catalog_TipoCobro_fechaModificacion" property="fechaModificacion" z="6ZRADufPRAJiFupm0ozhMNIcULE="/>
+        </table:table>
+    </page:list>
+</div>

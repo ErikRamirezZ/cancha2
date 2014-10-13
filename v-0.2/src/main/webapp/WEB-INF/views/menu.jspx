@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_controlpago" z="5VkP9PNtM/yUJ+cBYPa+uymTRHw=">
+            <menu:item id="i_controlpago_new" messageCode="global_menu_new" url="/controlpagoes?form" z="pes8x/9ogcbndPFjkNQtewiK81U="/>
+            <menu:item id="i_controlpago_list" messageCode="global_menu_list" url="/controlpagoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="KKnUhIlqSUwBjwsSyO5+iRTwrzU="/>
+        </menu:category>
+        <menu:category id="c_jugador" z="9DpPm6uw05uI7f7futD7J6LUbqg=">
+            <menu:item id="i_jugador_new" messageCode="global_menu_new" url="/jugadors?form" z="PEIdlK0KjDfSbIpPZLSfV/ypjeM="/>
+            <menu:item id="i_jugador_list" messageCode="global_menu_list" url="/jugadors?page=1&amp;size=${empty param.size ? 10 : param.size}" z="E0yo6z/UGOawkLyXTWSuJzyaaD8="/>
+            <menu:item id="fi_jugador_equipoandactivo" messageCode="global_menu_find" url="/jugadors?find=ByEquipoAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="dhWd24b3I2ognX9BuHJcG376YLc="/>
+            <menu:item id="fi_jugador_equipoandesdelegadoandactivo" messageCode="global_menu_find" url="/jugadors?find=ByEquipoAndEsDelegadoAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="+CjSa4TBsFjRkiTDkPx6g13icXs="/>
+            <menu:item id="fi_jugador_equipoandnombrelikeandactivo" messageCode="global_menu_find" url="/jugadors?find=ByEquipoAndNombreLikeAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="YG2ZV6gc7hQGv948A496k+urJq0="/>
+            <menu:item id="fi_jugador_equipoandnombrelikeandapellidopaternolikeandactivo" messageCode="global_menu_find" url="/jugadors?find=ByEquipoAndNombreLikeAndApellidoPaternoLikeAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="g8BLB3Odx/xdtdI3q0P9wWAZk6w="/>
+            <menu:item id="fi_jugador_equipoandposicionandactivo" messageCode="global_menu_find" url="/jugadors?find=ByEquipoAndPosicionAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="Kke6Z81xEzMbbcis6JZ6ybUVl/Y="/>
+            <menu:item id="fi_jugador_equipoandstatusandactivo" messageCode="global_menu_find" url="/jugadors?find=ByEquipoAndStatusAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="IZsz01MTpOp7PooQEMKvyU2iTko="/>
+        </menu:category>
+        <menu:category id="c_horario" z="wwMQUILt/puEegMlBIpsdYOrEDA=">
+            <menu:item id="i_horario_new" messageCode="global_menu_new" url="/horarios?form" z="VliB2jFUrOQQbJkrlvuYvfN28XY="/>
+            <menu:item id="i_horario_list" messageCode="global_menu_list" url="/horarios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="rHpyuay2/HmCjKYCqS2WaJXLYQ8="/>
+            <menu:item id="fi_horario_activo" messageCode="global_menu_find" url="/horarios?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="r8oE9g4KdW16DX1AeQzTwg21Q3U="/>
+            <menu:item id="fi_horario_canchaandactivo" messageCode="global_menu_find" url="/horarios?find=ByCanchaAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="aRvC1hFkpp6QSdcaRw4DuXKLlkQ="/>
+        </menu:category>
+        <menu:category id="c_usuario" z="g6oG0656PcsmmvUYeBtpgiQROck=">
+            <menu:item id="i_usuario_new" messageCode="global_menu_new" url="/usuarios?form" z="RG1gCsiZQjg1HLDzXbHKht6yDkw="/>
+            <menu:item id="i_usuario_list" messageCode="global_menu_list" url="/usuarios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="P7ZIPrcTTBR41JYD0QldbYgsZrM="/>
+            <menu:item id="fi_usuario_apellidopaternolike" messageCode="global_menu_find" url="/usuarios?find=ByApellidoPaternoLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="wboTvEV88mjtVSm9mBqmDoEziyc="/>
+            <menu:item id="fi_usuario_empresaandactivo" messageCode="global_menu_find" url="/usuarios?find=ByEmpresaAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="fDw8QjBQATxYSd+tOzqAhtodUEc="/>
+            <menu:item id="fi_usuario_empresaandnombrelikeandactivo" messageCode="global_menu_find" url="/usuarios?find=ByEmpresaAndNombreLikeAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="kCE5NEvaX5kzFhDSXNLZxI1bQ5A="/>
+            <menu:item id="fi_usuario_empresacorreoelikeandactivo" messageCode="global_menu_find" url="/usuarios?find=ByEmpresaCorreoELikeAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="vp+MzFQjvoxyNPJdQW9yt5KD6rI="/>
+            <menu:item id="fi_usuario_rolandactivo" messageCode="global_menu_find" url="/usuarios?find=ByRolAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="MIXXCEBRglAhfQempCT+k6sTmIY="/>
+        </menu:category>
+        <menu:category id="c_tipopartido" z="JXxDWRt6MJkcWD/nFAURHFSgaCo=">
+            <menu:item id="i_tipopartido_new" messageCode="global_menu_new" url="/tipopartidoes?form" z="JthaZ46sVODUMsV5lZrR5/06dUo="/>
+            <menu:item id="i_tipopartido_list" messageCode="global_menu_list" url="/tipopartidoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="o5IOM1UD/k7w4202ExHQVOqF9ic="/>
+        </menu:category>
+        <menu:category id="c_statusequipojugador" z="eaRhWebCzPow/t7l9t/Rou//smA=">
+            <menu:item id="i_statusequipojugador_new" messageCode="global_menu_new" url="/statusequipojugadors?form" z="7w+ouP7tGeFg42yiBLNNo+gRcY4="/>
+            <menu:item id="i_statusequipojugador_list" messageCode="global_menu_list" url="/statusequipojugadors?page=1&amp;size=${empty param.size ? 10 : param.size}" z="iOEXo2kXNiS+1rq7tc1WN7cv+3E="/>
+            <menu:item id="fi_statusequipojugador_activo" messageCode="global_menu_find" url="/statusequipojugadors?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="44Qr8wF1tv1dHprsZ5xlqrIE9WI="/>
+        </menu:category>
+        <menu:category id="c_configuraciontorneo" z="auBnhrcx2gmAy1iWkbGsbMf3FJc=">
+            <menu:item id="i_configuraciontorneo_new" messageCode="global_menu_new" url="/configuraciontorneos?form" z="NldFBip+P+4eVeMA6M64RxXgV0k="/>
+            <menu:item id="i_configuraciontorneo_list" messageCode="global_menu_list" url="/configuraciontorneos?page=1&amp;size=${empty param.size ? 10 : param.size}" z="glIQ9WZ9z2gAH4eTdBtGTZO+8BU="/>
+            <menu:item id="fi_configuraciontorneo_inscripcionandactivo" messageCode="global_menu_find" url="/configuraciontorneos?find=ByInscripcionAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="5VV/YUG40RduqzIGIsucX+r3BLQ="/>
+            <menu:item id="fi_configuraciontorneo_tipocobroandactivo" messageCode="global_menu_find" url="/configuraciontorneos?find=ByTipoCobroAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="/suc4em+x7z0E0DYjZC2m8AMJL0="/>
+            <menu:item id="fi_configuraciontorneo_torneoandactivo" messageCode="global_menu_find" url="/configuraciontorneos?find=ByTorneoAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="I96iuXFe9yq0ZCDr0d7Gx7CMqeE="/>
+        </menu:category>
+        <menu:category id="c_estadisticas" z="ffPx6Jld1H6Oxq9W5CdoYjrUruw=">
+            <menu:item id="i_estadisticas_new" messageCode="global_menu_new" url="/estadisticases?form" z="I0J3TE/0G5ubuN+MjzFzZGwZeHE="/>
+            <menu:item id="i_estadisticas_list" messageCode="global_menu_list" url="/estadisticases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="RNFjPPOiGBSGtYpxsvBg59Sehb8="/>
+            <menu:item id="fi_estadisticas_accion" messageCode="global_menu_find" url="/estadisticases?find=ByAccion&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="HUCS2Btf4pkNp4RjPhob+rQQhdU="/>
+            <menu:item id="fi_estadisticas_alineacion" messageCode="global_menu_find" url="/estadisticases?find=ByAlineacion&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="vWmx3caSeVvdfTlZ9xYScME+yxI="/>
+        </menu:category>
+        <menu:category id="c_sucursal" z="qN2r56zm5K6QnxDWJ00gRZ+bu84=">
+            <menu:item id="i_sucursal_new" messageCode="global_menu_new" url="/sucursals?form" z="6dxGCPOx1Gd5cL3kYmOux/+989c="/>
+            <menu:item id="i_sucursal_list" messageCode="global_menu_list" url="/sucursals?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Rkn6g9K8ST6KwVdqSD+GGmucSdU="/>
+            <menu:item id="fi_sucursal_empresaandactivo" messageCode="global_menu_find" url="/sucursals?find=ByEmpresaAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="/huBljmfZ4Y80CzsOjFCv9SStW0="/>
+        </menu:category>
+        <menu:category id="c_accion" z="ztJ0gaTDnNILW7X2LFh9js5bmlU=">
+            <menu:item id="i_accion_new" messageCode="global_menu_new" url="/accions?form" z="XHM6pnMxyTk3oRAkOM4vLRUN7Oc="/>
+            <menu:item id="i_accion_list" messageCode="global_menu_list" url="/accions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="J0A/Kij65zXnYz91Z3EJUjL0YIE="/>
+            <menu:item id="fi_accion_activo" messageCode="global_menu_find" url="/accions?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="IeWXIEh4SDZ/pGQvXQCDmUyMb60="/>
+        </menu:category>
+        <menu:category id="c_alineacion" z="HcfIQY0Fnv+trM/s0WB8JpFykn0=">
+            <menu:item id="i_alineacion_new" messageCode="global_menu_new" url="/alineacions?form" z="zrI15mOa2D4DZfzjLJpagyqYwV0="/>
+            <menu:item id="i_alineacion_list" messageCode="global_menu_list" url="/alineacions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kXrf7M/WIBMkcjuBams/0b9vDfI="/>
+            <menu:item id="fi_alineacion_jugador" messageCode="global_menu_find" url="/alineacions?find=ByJugador&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="NFRDmd1P5rZet/9RO700Rs5nUcg="/>
+            <menu:item id="fi_alineacion_jugadorandfechacreacionbetween" messageCode="global_menu_find" url="/alineacions?find=ByJugadorAndFechaCreacionBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="hIV6f8/hwUSlm2R7upD8CnoJVOk="/>
+            <menu:item id="fi_alineacion_partido" messageCode="global_menu_find" url="/alineacions?find=ByPartido&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="vKncydqfjoLwp8cucRKWoKSjN/c="/>
+            <menu:item id="fi_alineacion_partidoandfechacreacionbetween" messageCode="global_menu_find" url="/alineacions?find=ByPartidoAndFechaCreacionBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="/Neh0WQDKKU1sFGXlLdny0HO9PQ="/>
+        </menu:category>
+        <menu:category id="c_metodopago" z="ivaY1Ww5zsZQWJ84p4lPq713Nf0=">
+            <menu:item id="i_metodopago_new" messageCode="global_menu_new" url="/metodopagoes?form" z="zD6WNqrEpRlwtGZvb/9F1ylZ5jA="/>
+            <menu:item id="i_metodopago_list" messageCode="global_menu_list" url="/metodopagoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="v3V2nLlh/mJtkbUyrWKGzbA5f8Q="/>
+            <menu:item id="fi_metodopago_activo" messageCode="global_menu_find" url="/metodopagoes?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="iRqVlAV3MnCEvxNPiMjbsTlgUKE="/>
+        </menu:category>
+        <menu:category id="c_fechavencimientotc" z="2LBVRSm6Xc4kX2apzL7yJvN6LE0=">
+            <menu:item id="i_fechavencimientotc_new" messageCode="global_menu_new" url="/fechavencimientotcs?form" z="T9DKwau9NltMs1BBXgc6fRhM9gY="/>
+            <menu:item id="i_fechavencimientotc_list" messageCode="global_menu_list" url="/fechavencimientotcs?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Xs7WMrae/Dd5XjdDmcySZwMKsfc="/>
+            <menu:item id="fi_fechavencimientotc_activo" messageCode="global_menu_find" url="/fechavencimientotcs?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="eni6UtXhUBLi3pdJtEcrArCuDtE="/>
+        </menu:category>
+        <menu:category id="c_conceptocobro" z="TJQIqxlnCFe0ttJYkvPRqOhfBD4=">
+            <menu:item id="i_conceptocobro_new" messageCode="global_menu_new" url="/conceptocobroes?form" z="Sl254jJ7D32rdCXCwcKLu2ubIK0="/>
+            <menu:item id="i_conceptocobro_list" messageCode="global_menu_list" url="/conceptocobroes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="0EBHwNt+erLsNuQcDNFkq+KUShM="/>
+            <menu:item id="fi_conceptocobro_activo" messageCode="global_menu_find" url="/conceptocobroes?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="qg/WJGrm3CY+Y0VyKbIWJVoRK+E="/>
+        </menu:category>
+        <menu:category id="c_statuscedula" z="UouYJGaZxe9M0wR/1bpWr8k5Aac=">
+            <menu:item id="i_statuscedula_new" messageCode="global_menu_new" url="/statuscedulas?form" z="DUNTsz5U1swOMUNNHlaIcsFn5lc="/>
+            <menu:item id="i_statuscedula_list" messageCode="global_menu_list" url="/statuscedulas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="YBAKyOdLaDRHWHOPc6RMtKpKaO8="/>
+            <menu:item id="fi_statuscedula_activo" messageCode="global_menu_find" url="/statuscedulas?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="dWAq2rsFLDHuMejjgTdb9NUOphs="/>
+        </menu:category>
+        <menu:category id="c_posicion" z="iIzmodmLleLNiks5AmT8DMYjGLw=">
+            <menu:item id="i_posicion_new" messageCode="global_menu_new" url="/posicions?form" z="gWmNqHEj2mj/dEGMy9YYroW1y/g="/>
+            <menu:item id="i_posicion_list" messageCode="global_menu_list" url="/posicions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ElG+ypMn/gMVuua2yHqD6UPEnVY="/>
+            <menu:item id="fi_posicion_activo" messageCode="global_menu_find" url="/posicions?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="zypaHEkfBGKjy3hyvDm3MfJ2yuU="/>
+        </menu:category>
+        <menu:category id="c_abono" z="1rq/0DZ2QlAFLA9GH9ShzVTKVQo=">
+            <menu:item id="i_abono_new" messageCode="global_menu_new" url="/abonoes?form" z="/g1rZOnFPzWqiiyzFQro0JGlZt8="/>
+            <menu:item id="i_abono_list" messageCode="global_menu_list" url="/abonoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="5c3kFvwPzQwPgR6qoD3BFQFkpzI="/>
+            <menu:item id="fi_abono_cargoandfechacreacionbetween" messageCode="global_menu_find" url="/abonoes?find=ByCargoAndFechaCreacionBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="e8zSlcYpPCJKKmPVsVtsweREKGo="/>
+            <menu:item id="fi_abono_descuentoandfechacreacionbetween" messageCode="global_menu_find" url="/abonoes?find=ByDescuentoAndFechaCreacionBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="UgdNlMuCCtOYyvV3CgLQIPlwQK4="/>
+            <menu:item id="fi_abono_metodopagoandfechacreacionbetween" messageCode="global_menu_find" url="/abonoes?find=ByMetodoPagoAndFechaCreacionBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="KI9wt644IrE4YRfUFfp0DIZ6yqk="/>
+            <menu:item id="fi_abono_statusandfechacreacionbetween" messageCode="global_menu_find" url="/abonoes?find=ByStatusAndFechaCreacionBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="lW2/V0Ghi3+0OAqglUnuMSj3Nkg="/>
+        </menu:category>
+        <menu:category id="c_statuscargoabono" z="PBJXO5cEtKap3FdJmF+wKbQSFh0=">
+            <menu:item id="i_statuscargoabono_new" messageCode="global_menu_new" url="/statuscargoabonoes?form" z="IP6L7+VheZuuYc3LSVX2puzyj7w="/>
+            <menu:item id="i_statuscargoabono_list" messageCode="global_menu_list" url="/statuscargoabonoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VsCHOFP7y5tOXJS6wvtL9KX75o4="/>
+            <menu:item id="fi_statuscargoabono_activo" messageCode="global_menu_find" url="/statuscargoabonoes?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="+XYKfvoApV98p7f6uYMzxyPC7Qc="/>
+        </menu:category>
+        <menu:category id="c_torneo" z="Xjy5A0or4vG6vbTqn6rhxV9JsiY=">
+            <menu:item id="i_torneo_new" messageCode="global_menu_new" url="/torneos?form" z="MUYrHLKrU+r0QFqxdoDUe+aclWw="/>
+            <menu:item id="i_torneo_list" messageCode="global_menu_list" url="/torneos?page=1&amp;size=${empty param.size ? 10 : param.size}" z="WLL42KQVEn92DV7DEKNOlevUVv4="/>
+        </menu:category>
+        <menu:category id="c_torneoequipo" z="Ck9PMzgsVRmOAYyB4+fZCSWuRu0=">
+            <menu:item id="i_torneoequipo_new" messageCode="global_menu_new" url="/torneoequipoes?form" z="OmWKq3BCCUBIeOoe74ErYMtkb+k="/>
+            <menu:item id="i_torneoequipo_list" messageCode="global_menu_list" url="/torneoequipoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="fHcjQzqG94P41r26sKU6NTe5nU4="/>
+            <menu:item id="fi_torneoequipo_equipo" messageCode="global_menu_find" url="/torneoequipoes?find=ByEquipo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="pZUWyixdA5dpXz4uaXf4rtXUv8Y="/>
+            <menu:item id="fi_torneoequipo_torneo" messageCode="global_menu_find" url="/torneoequipoes?find=ByTorneo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="fc4FwE7rAR5mNNgtHgXPtpfqDoI="/>
+        </menu:category>
+        <menu:category id="c_equipo" z="MW6b0dyj2ozO9yp3D621gV1cR2Q=">
+            <menu:item id="i_equipo_new" messageCode="global_menu_new" url="/equipoes?form" z="6sZphUjzCLhVSt0KKwI1gapzN/g="/>
+            <menu:item id="i_equipo_list" messageCode="global_menu_list" url="/equipoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="1eDhyr/G9kztJAE1vSXgcjQoCcM="/>
+            <menu:item id="fi_equipo_activo" messageCode="global_menu_find" url="/equipoes?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="G+Vq7QvW+lEStFFIBKBNtBwq/UI="/>
+            <menu:item id="fi_equipo_statusandactivo" messageCode="global_menu_find" url="/equipoes?find=ByStatusAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="+MEw6hXSH2zbwZA5Z8Ab3umfySY="/>
+        </menu:category>
+        <menu:category id="c_pagohecho" z="cabFd5KnP1vqZoB1ZScC0Db6IBg=">
+            <menu:item id="i_pagohecho_new" messageCode="global_menu_new" url="/pagohechoes?form" z="ALDhFSgE8hfcKtspeVejVoGRXcM="/>
+            <menu:item id="i_pagohecho_list" messageCode="global_menu_list" url="/pagohechoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="u6AMK209Yp4CU+mxqnORjt32rWU="/>
+        </menu:category>
+        <menu:category id="c_descuento" z="wSvRfgoszppu9zm8BrRnNGWRCTA=">
+            <menu:item id="i_descuento_new" messageCode="global_menu_new" url="/descuentoes?form" z="n6V/wCtQEeMV7soyAyjaJwv9Lbk="/>
+            <menu:item id="i_descuento_list" messageCode="global_menu_list" url="/descuentoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="EPajtgwqkmZvTaGuZOsF4c/1Ywk="/>
+            <menu:item id="fi_descuento_activo" messageCode="global_menu_find" url="/descuentoes?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="0pDyd4NQKaA4aR+FaeN5GF4Lz0I="/>
+        </menu:category>
+        <menu:category id="c_diasjuego" z="meDoIw2Zed5E3/mhWqzVl91oAW8=">
+            <menu:item id="i_diasjuego_new" messageCode="global_menu_new" url="/diasjuegoes?form" z="s62ogHhbyI5oLTc4IYqkTvgft0w="/>
+            <menu:item id="i_diasjuego_list" messageCode="global_menu_list" url="/diasjuegoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="fwToPMUDNDnYIy7usVKcGbIl09c="/>
+        </menu:category>
+        <menu:category id="c_tipocobro" z="J+Hi/keRmN98PdC0DMjBolnvRho=">
+            <menu:item id="i_tipocobro_new" messageCode="global_menu_new" url="/tipocobroes?form" z="F/zSSNmjI02jB/Kyg0ebOYGc7rk="/>
+            <menu:item id="i_tipocobro_list" messageCode="global_menu_list" url="/tipocobroes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="v53mnVUuUAvvt08KLJjGY1MPeV0="/>
+        </menu:category>
+        <menu:category id="c_tipotarjeta" z="/g3f1kEg8pkCvmGS+4mVi+Q+aIM=">
+            <menu:item id="i_tipotarjeta_new" messageCode="global_menu_new" url="/tipotarjetas?form" z="NLX5x6bdI6xaL59cPxa+3gvGjbs="/>
+            <menu:item id="i_tipotarjeta_list" messageCode="global_menu_list" url="/tipotarjetas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="95Z6RcUPwG2MI26NqxfMabEWcfc="/>
+            <menu:item id="fi_tipotarjeta_activo" messageCode="global_menu_find" url="/tipotarjetas?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="7SH7DQcGy184UEFj22UwphWLWYk="/>
+        </menu:category>
+        <menu:category id="c_cargo" z="RkgM1RFJmYcsCrUrSD/Wv8nbL2A=">
+            <menu:item id="i_cargo_new" messageCode="global_menu_new" url="/cargoes?form" z="qMLzugfFynKkMvazLt0WjeDGg/0="/>
+            <menu:item id="i_cargo_list" messageCode="global_menu_list" url="/cargoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="szKeASlLTApTFwfZGlrE8sQ2teI="/>
+            <menu:item id="fi_cargo_conceptocobroandfechacreacionbetween" messageCode="global_menu_find" url="/cargoes?find=ByConceptoCobroAndFechaCreacionBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="zIPVRtMR4KhwmZUV7osp8EdUy+s="/>
+            <menu:item id="fi_cargo_conceptocobroandstatus" messageCode="global_menu_find" url="/cargoes?find=ByConceptoCobroAndStatus&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="mELb/AKJ76TY2+KWSakIamuCsZA="/>
+            <menu:item id="fi_cargo_conceptocobroandtorneo" messageCode="global_menu_find" url="/cargoes?find=ByConceptoCobroAndTorneo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="k1l4dmGzZa3WzoA8ijapBJdBRpg="/>
+            <menu:item id="fi_cargo_conceptocobroandtorneoandequipo" messageCode="global_menu_find" url="/cargoes?find=ByConceptoCobroAndTorneoAndEquipo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="Vcys6/Ir2DQUCBeeZRPTFg7gKyA="/>
+            <menu:item id="fi_cargo_conceptocobroandtorneoandequipoandfechamodificacionbetween" messageCode="global_menu_find" url="/cargoes?find=ByConceptoCobroAndTorneoAndEquipoAndFechaModificacionBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="8ARYXx7PMjjNULnT04b9dYWSXYA="/>
+            <menu:item id="fi_cargo_conceptocobroandtorneoandfechamodificacionbetween" messageCode="global_menu_find" url="/cargoes?find=ByConceptoCobroAndTorneoAndFechaModificacionBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="DZFwYHBdEhBebPHmSgU6a4XCcC8="/>
+        </menu:category>
+        <menu:category id="c_partido" z="/lP1jvdnWQxpyeByg9cpBVLSslQ=">
+            <menu:item id="i_partido_new" messageCode="global_menu_new" url="/partidoes?form" z="Xg9y5lhYECVB4HPix+20GfIUoUY="/>
+            <menu:item id="i_partido_list" messageCode="global_menu_list" url="/partidoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="jmxAmlR7UYl6HV3YV85Z91DgVV8="/>
+            <menu:item id="fi_partido_cancha" messageCode="global_menu_find" url="/partidoes?find=ByCancha&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="YimpUvRQuZllL0FohFhX3eT2JsM="/>
+            <menu:item id="fi_partido_canchaandstatus" messageCode="global_menu_find" url="/partidoes?find=ByCanchaAndStatus&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="EQV9VAUEB539ehQkvyR6vfw4tAE="/>
+            <menu:item id="fi_partido_canchaandstatusandfechajuegobetween" messageCode="global_menu_find" url="/partidoes?find=ByCanchaAndStatusAndFechaJuegoBetween&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="LRrKRmi6stBN5tkrPJPnq7Xn59E="/>
+            <menu:item id="fi_partido_canchaandstatusandfechajuegoequals" messageCode="global_menu_find" url="/partidoes?find=ByCanchaAndStatusAndFechaJuegoEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="GzLbMf2VwPa0FWrcl59DQQkckI8="/>
+            <menu:item id="fi_partido_fechajuegobetweenandstatus" messageCode="global_menu_find" url="/partidoes?find=ByFechaJuegoBetweenAndStatus&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="xJ7A//G3b4Yc4JFIYZIG7a85vRE="/>
+            <menu:item id="fi_partido_fechajuegoequalsandstatus" messageCode="global_menu_find" url="/partidoes?find=ByFechaJuegoEqualsAndStatus&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="VhOKQsoOyq92EiYrfzQkdc3cYOE="/>
+            <menu:item id="fi_partido_torneoequipolocalandtorneoequipovisitanteandequipolocalandequipovisitante" messageCode="global_menu_find" url="/partidoes?find=ByTorneoEquipoLocalAndTorneoEquipoVisitanteAndEquipoLocalAndEquipoVisitante&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="L2vvjEseAVaFDD1Z6YawY9ogy1g="/>
+            <menu:item id="fi_partido_torneoequipolocalandtorneoequipovisitanteandequipolocalandequipovisitanteandstatus" messageCode="global_menu_find" url="/partidoes?find=ByTorneoEquipoLocalAndTorneoEquipoVisitanteAndEquipoLocalAndEquipoVisitanteAndStatus&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="z7z2eJUA6fpqQ/BaLU989HRN+5s="/>
+            <menu:item id="fi_partido_torneoequipolocalortorneoequipovisitante" messageCode="global_menu_find" url="/partidoes?find=ByTorneoEquipoLocalOrTorneoEquipoVisitante&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="MT29Ect6OT1JC1I8hN0oz//BcQw="/>
+            <menu:item id="fi_partido_torneoequipolocalortorneoequipovisitanteandequipolocalorequipovisitante" messageCode="global_menu_find" url="/partidoes?find=ByTorneoEquipoLocalOrTorneoEquipoVisitanteAndEquipoLocalOrEquipoVisitante&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="vN0PCKySg8+jpHC8R9BZtBXrVtA="/>
+            <menu:item id="fi_partido_torneoequipolocalortorneoequipovisitanteandequipolocalorequipovisitanteandstatus" messageCode="global_menu_find" url="/partidoes?find=ByTorneoEquipoLocalOrTorneoEquipoVisitanteAndEquipoLocalOrEquipoVisitanteAndStatus&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="Udw0HLVhzPZh6vLJcnITv14BjdQ="/>
+            <menu:item id="fi_partido_torneoequipolocalortorneoequipovisitanteandstatus" messageCode="global_menu_find" url="/partidoes?find=ByTorneoEquipoLocalOrTorneoEquipoVisitanteAndStatus&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="9/dXY2TI9HW9KBzYrZwpplLy7yM="/>
+        </menu:category>
+        <menu:category id="c_rol" z="WyJ0DN0p4cfPsGF7WGHEFk6Ok1k=">
+            <menu:item id="i_rol_new" messageCode="global_menu_new" url="/rols?form" z="pci13zJkyKMJXhGhbCY9f9yBMb4="/>
+            <menu:item id="i_rol_list" messageCode="global_menu_list" url="/rols?page=1&amp;size=${empty param.size ? 10 : param.size}" z="GQHH+mdvcxfHlFAlkR2gFwHsv1s="/>
+            <menu:item id="fi_rol_activo" messageCode="global_menu_find" url="/rols?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="ZWCN5VNp+7t7wmkTgYhRueAYB64="/>
+        </menu:category>
+        <menu:category id="c_cedulapartido" z="1LAxKp/dW+GW2FOYRyLjVPkk60Q=">
+            <menu:item id="i_cedulapartido_new" messageCode="global_menu_new" url="/cedulapartidoes?form" z="sgQgShRh/8jB1dfSlrLDz47zZI0="/>
+            <menu:item id="i_cedulapartido_list" messageCode="global_menu_list" url="/cedulapartidoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="iLi9Cxg5oeePALgHCy/OlEjxEcs="/>
+            <menu:item id="fi_cedulapartido_partido" messageCode="global_menu_find" url="/cedulapartidoes?find=ByPartido&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="Vh+Z+nzVUaabWT4YyogxuQRd2No="/>
+            <menu:item id="fi_cedulapartido_partidoandstatus" messageCode="global_menu_find" url="/cedulapartidoes?find=ByPartidoAndStatus&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="svjtmklAFS7yVYuiJVubWhaIQPg="/>
+        </menu:category>
+        <menu:category id="c_cancha" z="32bRFO8Dcpe8AX8UAmXm/Mp57RU=">
+            <menu:item id="i_cancha_new" messageCode="global_menu_new" url="/canchas?form" z="oZaGCxORixLAqVkvP6ia+JKfhII="/>
+            <menu:item id="i_cancha_list" messageCode="global_menu_list" url="/canchas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="sR+DW1bFaT1g9CZhNpcjhFV7GdM="/>
+            <menu:item id="fi_cancha_activo" messageCode="global_menu_find" url="/canchas?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="lYVABXGHru8xf4OPx5NNn5WybM0="/>
+            <menu:item id="fi_cancha_sucursalandactivo" messageCode="global_menu_find" url="/canchas?find=BySucursalAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="vvtWdcnp09yfqx9EGj7hC26Bc0c="/>
+        </menu:category>
+        <menu:category id="c_statuspartido" z="nR0eIQOdjxi6yv6JRhPls82vdxQ=">
+            <menu:item id="i_statuspartido_new" messageCode="global_menu_new" url="/statuspartidoes?form" z="egXTI47i6BAWCMnGRq9sMzvhjHo="/>
+            <menu:item id="i_statuspartido_list" messageCode="global_menu_list" url="/statuspartidoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="KS9SjxX3ofaQ+Ia5y36Cj4yGBI8="/>
+            <menu:item id="fi_statuspartido_activo" messageCode="global_menu_find" url="/statuspartidoes?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="XzBbcVYgqx4+y1iRRboemg4+N6M="/>
+        </menu:category>
+        <menu:category id="c_empresa" z="Xy2UIEQBwGL74OghlgyDNqDXG44=">
+            <menu:item id="i_empresa_new" messageCode="global_menu_new" url="/empresas?form" z="TBXez8QM+aB2tzcjHN1lQJYrewc="/>
+            <menu:item id="i_empresa_list" messageCode="global_menu_list" url="/empresas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="/YQYlSdehDz3lrOGSSpWZYe++Zk="/>
+            <menu:item id="fi_empresa_activo" messageCode="global_menu_find" url="/empresas?find=ByActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="7P68c0LcqBnWqYfhp9slqzrFAvo="/>
+            <menu:item id="fi_empresa_nombrecomerciallikeandactivo" messageCode="global_menu_find" url="/empresas?find=ByNombreComercialLikeAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="mDZ3VLC292rE3KvzgChf8yQwIhY="/>
+            <menu:item id="fi_empresa_nombrelikeandactivo" messageCode="global_menu_find" url="/empresas?find=ByNombreLikeAndActivo&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="sPDbRjad7+HdDltQUuNr2jA5hR0="/>
+        </menu:category>
+    </menu:menu>
+</div>

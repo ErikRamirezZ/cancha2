@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="abonoes/list">
+        <put-attribute name="body" value="/WEB-INF/views/abonoes/list.jspx"/>
+    </definition>
+<definition extends="default" name="abonoes/show">
+        <put-attribute name="body" value="/WEB-INF/views/abonoes/show.jspx"/>
+    </definition>
+<definition extends="default" name="abonoes/create">
+        <put-attribute name="body" value="/WEB-INF/views/abonoes/create.jspx"/>
+    </definition>
+<definition extends="default" name="abonoes/update">
+        <put-attribute name="body" value="/WEB-INF/views/abonoes/update.jspx"/>
+    </definition>
+<definition extends="default" name="abonoes/findAbonoesByCargoAndFechaCreacionBetween">
+        <put-attribute name="body" value="/WEB-INF/views/abonoes/findAbonoesByCargoAndFechaCreacionBetween.jspx"/>
+    </definition>
+<definition extends="default" name="abonoes/findAbonoesByDescuentoAndFechaCreacionBetween">
+        <put-attribute name="body" value="/WEB-INF/views/abonoes/findAbonoesByDescuentoAndFechaCreacionBetween.jspx"/>
+    </definition>
+<definition extends="default" name="abonoes/findAbonoesByMetodoPagoAndFechaCreacionBetween">
+        <put-attribute name="body" value="/WEB-INF/views/abonoes/findAbonoesByMetodoPagoAndFechaCreacionBetween.jspx"/>
+    </definition>
+<definition extends="default" name="abonoes/findAbonoesByStatusAndFechaCreacionBetween">
+        <put-attribute name="body" value="/WEB-INF/views/abonoes/findAbonoesByStatusAndFechaCreacionBetween.jspx"/>
+    </definition>
+</tiles-definitions>

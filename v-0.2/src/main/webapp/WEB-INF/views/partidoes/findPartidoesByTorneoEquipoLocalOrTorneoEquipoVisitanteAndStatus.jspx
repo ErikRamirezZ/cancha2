@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByTorneoEquipoLocalOrTorneoEquipoVisitanteAndStatus" id="ff_com_raze_cancha_domain_Partido" path="/partidoes" z="7OWpvtNYDNk2axW2J4gt3nZ4PCA=">
+        <field:select disableFormBinding="true" field="torneoEquipoLocal" id="f_com_raze_cancha_domain_Partido_torneoEquipoLocal" itemValue="id" items="${torneos}" path="/torneos" required="true" z="n/8oKo5dxAtkilXwAh6DF49iQZA="/>
+        <field:select disableFormBinding="true" field="torneoEquipoVisitante" id="f_com_raze_cancha_domain_Partido_torneoEquipoVisitante" itemValue="id" items="${torneos}" path="/torneos" required="true" z="v5QVUQfYyJmGpARosx61oEgFkyE="/>
+        <field:select disableFormBinding="true" field="status" id="f_com_raze_cancha_domain_Partido_status" itemValue="id" items="${statuspartidoes}" path="/statuspartidoes" required="true" z="sofx3AexAgVXIm0HvqcLj6TAEgE="/>
+    </form:find>
+</div>

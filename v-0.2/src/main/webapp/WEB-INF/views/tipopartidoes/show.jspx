@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_catalog_TipoPartido" object="${tipopartido}" path="/tipopartidoes" z="C+6CEnbwTQ+Tlqx3rvpj9d+Ytdk=">
+        <field:display field="nombreTipoPartido" id="s_com_raze_cancha_catalog_TipoPartido_nombreTipoPartido" object="${tipopartido}" z="e9+UDkfgibvh/i3FJHoe0iooooI="/>
+        <field:display field="descripcion" id="s_com_raze_cancha_catalog_TipoPartido_descripcion" object="${tipopartido}" z="kklgNKkrJ1fXamiTMjk16NHn2kg="/>
+        <field:display field="activo" id="s_com_raze_cancha_catalog_TipoPartido_activo" object="${tipopartido}" z="O4EC4qdJYFwjrDBxm9jgI66ek88="/>
+        <field:display field="usuario" id="s_com_raze_cancha_catalog_TipoPartido_usuario" object="${tipopartido}" z="3V3v1EXSh3aeDmhgYSHWi6Zo3oI="/>
+        <field:display date="true" dateTimePattern="${tipoPartido_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_catalog_TipoPartido_fechaCreacion" object="${tipopartido}" z="LW6Pk0YoCawZAtWqOhJ67hUqflE="/>
+        <field:display date="true" dateTimePattern="${tipoPartido_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_catalog_TipoPartido_fechaModificacion" object="${tipopartido}" z="JmaaWhnm7MfBPQDu18/MulKKKXY="/>
+    </page:show>
+</div>

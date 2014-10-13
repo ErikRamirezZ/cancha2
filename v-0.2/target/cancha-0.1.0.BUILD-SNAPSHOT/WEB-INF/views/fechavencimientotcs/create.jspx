@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_raze_cancha_catalog_FechaVencimientoTC" modelAttribute="fechaVencimientoTC" path="/fechavencimientotcs" render="${empty dependencies}" z="GJkrYyHZ2fHoCrdZjbcwW1SlFsE=">
+        <field:input field="nombreFechaVencimientoTC" id="c_com_raze_cancha_catalog_FechaVencimientoTC_nombreFechaVencimientoTC" required="true" z="Zyn1IbMO+kFjINYbYRh902PvUx8="/>
+        <field:input field="descripcion" id="c_com_raze_cancha_catalog_FechaVencimientoTC_descripcion" required="true" z="WAv11nWRI0TGVWrPLGxRpmKzGY4="/>
+        <field:input field="mes" id="c_com_raze_cancha_catalog_FechaVencimientoTC_mes" required="true" z="YTeweV9D8RAyaRv2eMA6N+zPoF8="/>
+        <field:input field="anio" id="c_com_raze_cancha_catalog_FechaVencimientoTC_anio" required="true" z="BQs2N/USWZHqTMu1TXN086P/Dac="/>
+        <field:checkbox field="activo" id="c_com_raze_cancha_catalog_FechaVencimientoTC_activo" z="qVYS76X9+r72IT+JunQIXcMbpgw="/>
+        <field:select field="usuario" id="c_com_raze_cancha_catalog_FechaVencimientoTC_usuario" itemValue="id" items="${usuarios}" path="/usuarios" z="loHHHmuXfOvqHcwOqVl54hvR2AY="/>
+        <field:datetime dateTimePattern="${fechaVencimientoTC_fechacreacion_date_format}" field="fechaCreacion" id="c_com_raze_cancha_catalog_FechaVencimientoTC_fechaCreacion" z="zuvpt2tpPoy7NY2O3KnZ2RBcVXo="/>
+        <field:datetime dateTimePattern="${fechaVencimientoTC_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_raze_cancha_catalog_FechaVencimientoTC_fechaModificacion" z="bDVg4xLLsXtUMGepvNbGIVZm6Xk="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_raze_cancha_catalog_FechaVencimientoTC" render="${not empty dependencies}" z="+qv34xrb81/qo5YG7FYaIggRbxU="/>
+</div>

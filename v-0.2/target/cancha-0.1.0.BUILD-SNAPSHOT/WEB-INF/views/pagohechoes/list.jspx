@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_raze_cancha_domain_PagoHecho" items="${pagohechoes}" z="zPhul3+5/arVCbMVwy7Ew9mcerQ=">
+        <table:table data="${pagohechoes}" id="l_com_raze_cancha_domain_PagoHecho" path="/pagohechoes" z="QmVao0VstltANkktTNYzOGNaTLI=">
+            <table:column id="c_com_raze_cancha_domain_PagoHecho_controlPago" property="controlPago" z="ZK+IgASWqrnyFgEkv2Rkqa1bQN0="/>
+            <table:column id="c_com_raze_cancha_domain_PagoHecho_monto" property="monto" z="tWG8MQbN6bOtPKn7KbqAukMWn9s="/>
+            <table:column id="c_com_raze_cancha_domain_PagoHecho_descuento" property="descuento" z="YBH009Fr48gtW7VnlMLUmRgKXBc="/>
+            <table:column date="true" dateTimePattern="${pagoHecho_fechapago_date_format}" id="c_com_raze_cancha_domain_PagoHecho_fechaPago" property="fechaPago" z="v4At1XgfnmO8Ij3F+yRqz601A9Y="/>
+            <table:column date="true" dateTimePattern="${pagoHecho_fechavencimiento_date_format}" id="c_com_raze_cancha_domain_PagoHecho_fechaVencimiento" property="fechaVencimiento" z="uMDICf1wjTvVwL1eIhD4AHLzatc="/>
+            <table:column id="c_com_raze_cancha_domain_PagoHecho_usuario" property="usuario" z="SmW0KXxCng8ln30UODk9GyyKmQg="/>
+        </table:table>
+    </page:list>
+</div>

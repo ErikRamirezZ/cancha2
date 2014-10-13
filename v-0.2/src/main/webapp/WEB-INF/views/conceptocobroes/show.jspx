@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_catalog_ConceptoCobro" object="${conceptocobro}" path="/conceptocobroes" z="l9BQRFl7MZNXJQvOGnIDb+8LPZM=">
+        <field:display field="nombreConceptoCobro" id="s_com_raze_cancha_catalog_ConceptoCobro_nombreConceptoCobro" object="${conceptocobro}" z="qJXt4npmviJzldYWMPy3fdPkIuw="/>
+        <field:display field="descripcion" id="s_com_raze_cancha_catalog_ConceptoCobro_descripcion" object="${conceptocobro}" z="6GBKRQnvkF2t1ARx0yvRUF0CfCM="/>
+        <field:display field="activo" id="s_com_raze_cancha_catalog_ConceptoCobro_activo" object="${conceptocobro}" z="Tcu74zvewaUVvtwzIwHZcKLEZ9w="/>
+        <field:display field="usuario" id="s_com_raze_cancha_catalog_ConceptoCobro_usuario" object="${conceptocobro}" z="sNdkW0XPbmq2Jo2y0P8o5oK6nDM="/>
+        <field:display date="true" dateTimePattern="${conceptoCobro_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_catalog_ConceptoCobro_fechaCreacion" object="${conceptocobro}" z="X7eAgxZjdVw9qm4WCHmZ8ewQcYE="/>
+        <field:display date="true" dateTimePattern="${conceptoCobro_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_catalog_ConceptoCobro_fechaModificacion" object="${conceptocobro}" z="kC6AHafHcjHe899q+Sg4EnmwvXI="/>
+    </page:show>
+</div>

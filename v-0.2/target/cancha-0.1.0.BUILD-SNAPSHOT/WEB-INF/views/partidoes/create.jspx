@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_raze_cancha_domain_Partido" modelAttribute="partido" path="/partidoes" render="${empty dependencies}" z="LiIPOe0zDX/cA11ez4IvAsmyg+g=">
+        <field:select field="cancha" id="c_com_raze_cancha_domain_Partido_cancha" itemValue="id" items="${canchas}" path="/canchas" required="true" z="HzUVhfWZvoygGol0k2wUUn+rAnA="/>
+        <field:select field="arbitros" id="c_com_raze_cancha_domain_Partido_arbitros" itemValue="id" items="${usuarios}" multiple="true" path="/usuarios" z="uKi++4zoqP/TAgA4lqrrDinrnOk="/>
+        <field:select field="torneoEquipoLocal" id="c_com_raze_cancha_domain_Partido_torneoEquipoLocal" itemValue="id" items="${torneos}" path="/torneos" z="TzdxrWsMWiKCZNpJN9ZBnYSi5MI="/>
+        <field:select field="equipoLocal" id="c_com_raze_cancha_domain_Partido_equipoLocal" itemValue="id" items="${equipoes}" path="/equipoes" z="tvjviUjap2zptfSueYAPG4cAsjM="/>
+        <field:select field="torneoEquipoVisitante" id="c_com_raze_cancha_domain_Partido_torneoEquipoVisitante" itemValue="id" items="${torneos}" path="/torneos" z="h4vCmEhB6sAciyXtUGRclzv2igw="/>
+        <field:select field="equipoVisitante" id="c_com_raze_cancha_domain_Partido_equipoVisitante" itemValue="id" items="${equipoes}" path="/equipoes" z="ZkvITIvNo2yLfvyNaSOLOv8IMac="/>
+        <field:datetime dateTimePattern="${partido_fechajuego_date_format}" field="fechaJuego" id="c_com_raze_cancha_domain_Partido_fechaJuego" z="6pVML77s0MKEvFIyzEMUkKOu8pI="/>
+        <field:select field="horario" id="c_com_raze_cancha_domain_Partido_horario" itemValue="id" items="${horarios}" path="/horarios" z="57nGDsmsTQHUOnNtNonnHJe37bQ="/>
+        <field:select field="tipoPartido" id="c_com_raze_cancha_domain_Partido_tipoPartido" itemValue="id" items="${tipopartidoes}" path="/tipopartidoes" z="kUfojG2gDqXwNpcReK4RevM4EzA="/>
+        <field:select field="status" id="c_com_raze_cancha_domain_Partido_status" itemValue="id" items="${statuspartidoes}" path="/statuspartidoes" required="true" z="mtP3y37gGcTnuCwR+qBaP6EbJSA="/>
+        <field:select field="usuario" id="c_com_raze_cancha_domain_Partido_usuario" itemValue="id" items="${usuarios}" path="/usuarios" z="no/b747ya1VKXssZeoaL09SDCbY="/>
+        <field:datetime dateTimePattern="${partido_fechacreacion_date_format}" field="fechaCreacion" id="c_com_raze_cancha_domain_Partido_fechaCreacion" z="BEzZy3O+3xPJvZh/RJxft2I6ZWY="/>
+        <field:datetime dateTimePattern="${partido_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_raze_cancha_domain_Partido_fechaModificacion" z="iCb38zGi8R5tBoNxqAXA7+ZYRC4="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_raze_cancha_domain_Partido" render="${not empty dependencies}" z="WEPBcLLa9ktpbSvgtiz/UawsWes="/>
+</div>

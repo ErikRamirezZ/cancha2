@@ -1,0 +1,391 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-10-12 12:56:47
+project --topLevelPackage com.raze.cancha --projectName cancha
+jpa setup --provider HIBERNATE --databaseName cancha --userName root --database MYSQL 
+entity jpa --class ~.domain.Empresa --testAutomatically
+entity jpa --class ~.domain.ControlPago --testAutomatically
+entity jpa --class ~.domain.PagoHecho --testAutomatically
+entity jpa --class ~.domain.Sucursal --testAutomatically
+entity jpa --class ~.domain.Torneo --testAutomatically
+entity jpa --class ~.domain.ConfiguracionTorneo --testAutomatically
+entity jpa --class ~.domain.Cancha --testAutomatically
+entity jpa --class ~.domain.Horario --testAutomatically
+entity jpa --class ~.domain.Usuario --testAutomatically
+entity jpa --class ~.domain.Partido --testAutomatically
+entity jpa --class ~.domain.TorneoEquipo --testAutomatically
+entity jpa --class ~.domain.Jugador --testAutomatically
+entity jpa --class ~.domain.Equipo --testAutomatically
+entity jpa --class ~.domain.CedulaPartido --testAutomatically
+entity jpa --class ~.domain.Alineacion --testAutomatically
+entity jpa --class ~.domain.Estadisticas --testAutomatically
+entity jpa --class ~.domain.Cargo --testAutomatically
+entity jpa --class ~.domain.Abono --testAutomatically
+entity jpa --class ~.catalog.Rol --testAutomatically
+entity jpa --class ~.catalog.TipoCobro --testAutomatically 
+entity jpa --class ~.catalog.TipoTarjeta --testAutomatically 
+entity jpa --class ~.catalog.ConceptoCobro --testAutomatically
+entity jpa --class ~.catalog.MetodoPago --testAutomatically
+entity jpa --class ~.catalog.Descuento --testAutomatically
+entity jpa --class ~.catalog.Accion --testAutomatically
+entity jpa --class ~.catalog.Posicion --testAutomatically
+entity jpa --class ~.catalog.TipoPartido --testAutomatically
+entity jpa --class ~.catalog.StatusPartido --testAutomatically
+entity jpa --class ~.catalog.StatusEquipoJugador --testAutomatically
+entity jpa --class ~.catalog.StatusCedula --testAutomatically
+entity jpa --class ~.catalog.StatusCargoAbono --testAutomatically
+entity jpa --class ~.catalog.DiasJuego --testAutomatically
+entity jpa --class ~.catalog.FechaVencimientoTC --testAutomatically
+field string --fieldName nombreRol --class ~.catalog.Rol --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreTipoCobro --class ~.catalog.TipoCobro --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreTipoTarjeta --class ~.catalog.TipoTarjeta --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreConceptoCobro --class ~.catalog.ConceptoCobro --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreMetodoPago --class ~.catalog.MetodoPago --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreDescuento --class ~.catalog.Descuento --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreAccion --class ~.catalog.Accion --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombrePosicion --class ~.catalog.Posicion --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreTipoPartido --class ~.catalog.TipoPartido --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreStatusPartido --class ~.catalog.StatusPartido  --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreStatusEquipoJugador --class ~.catalog.StatusEquipoJugador --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreStatusCedula --class ~.catalog.StatusCedula --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreStatusCargoAbono --class ~.catalog.StatusCargoAbono --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreDiasJuego --class ~.catalog.DiasJuego --notNull
+field string --fieldName descripcion --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombreFechaVencimientoTC --class ~.catalog.FechaVencimientoTC --notNull
+field string --fieldName descripcion --notNull
+field number --fieldName mes --type int --notNull
+field number --fieldName anio --type int --notNull
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombre --class ~.domain.Empresa --notNull
+field string --fieldName nombreComercial
+field string --fieldName domicilio
+field string --fieldName telefono
+field string --fieldName correoE
+field file --fieldName logo --contentType JPG --autoUpload 
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName empresa --type ~.domain.Empresa --class ~.domain.ControlPago --notNull
+field number --fieldName tarifa --type double --notNull
+field number --fieldName cuenta --type int
+field number --fieldName noReferencia --type int
+field reference --fieldName tipoTarjeta --type ~.catalog.TipoTarjeta
+field number --fieldName noTC --type int
+field number --fieldName codigoSeguridad --type int
+field reference --fieldName fechaVencimientoTC --type ~.catalog.FechaVencimientoTC
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName controlPago --type ~.domain.ControlPago --class ~.domain.PagoHecho --notNull
+field number --fieldName monto --type double --notNull
+field number --fieldName descuento --type int
+field date --fieldName fechaPago --type java.util.Date 
+field date --fieldName fechaVencimiento --type java.util.Date 
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName empresa --type ~.domain.Empresa --class ~.domain.Sucursal --notNull
+field string --fieldName nombre --notNull
+field string --fieldName domicilio
+field string --fieldName telefono
+field string --fieldName correoE
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName sucursal --type ~.domain.Sucursal --class ~.domain.Torneo --notNull
+field string --fieldName nombre --notNull
+field string --fieldName descripcion
+field date --fieldName fechaInicio --type java.util.Date 
+field date --fieldName fechaFin --type java.util.Date 
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName torneo --type ~.domain.Torneo --class ~.domain.ConfiguracionTorneo --notNull
+field boolean --fieldName inscripcion
+field number --fieldName costoIncripcion --type double --decimalMax 2
+field reference --fieldName tipoCobro --type ~.catalog.TipoCobro
+field number --fieldName costo --type double --decimalMax 2
+field number --fieldName numeroPagos --type int
+field number --fieldName numeroJugadoresXEquipo --type int
+field reference --fieldName diasJuego --type ~.catalog.DiasJuego
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName sucursal --type ~.domain.Sucursal --class ~.domain.Cancha --notNull
+field string --fieldName nombre --notNull
+field string --fieldName descripcion
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName cancha --type ~.domain.Cancha --class ~.domain.Horario --notNull
+field date --fieldName horaInicio --type java.util.Date  --notNull
+field number --fieldName duracion --type int
+field boolean --fieldName lunes
+field boolean --fieldName martes
+field boolean --fieldName miercoles
+field boolean --fieldName jueves
+field boolean --fieldName viernes
+field boolean --fieldName sabado
+field boolean --fieldName domingo
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName empresa --type ~.domain.Empresa --class ~.domain.Usuario --notNull
+field string --fieldName nombre --notNull
+field string --fieldName apellidoPaterno
+field string --fieldName apellidoMaterno
+field date --fieldName fechaNacimiento --type java.util.Date
+field string --fieldName domicilio
+field string --fieldName telefono
+field string --fieldName celular
+field string --fieldName correoE --notNull
+field string --fieldName password
+field reference --fieldName rol --type ~.catalog.Rol --notNull
+field number --fieldName numeroIntentos --type int
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName cancha --type ~.domain.Cancha --class ~.domain.Partido --notNull
+field set --fieldName arbitros --type ~.domain.Usuario
+field reference --fieldName torneoEquipoLocal --type ~.domain.Torneo
+field reference --fieldName equipoLocal --type ~.domain.Equipo
+field reference --fieldName torneoEquipoVisitante --type ~.domain.Torneo
+field reference --fieldName equipoVisitante --type ~.domain.Equipo
+field date --fieldName fechaJuego --type java.util.Date 
+field reference --fieldName horario --type ~.domain.Horario
+field reference --fieldName tipoPartido --type ~.catalog.TipoPartido
+field reference --fieldName status --type ~.catalog.StatusPartido --notNull
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName torneo --type ~.domain.Torneo --class ~.domain.TorneoEquipo
+field reference --fieldName equipo --type ~.domain.Equipo
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName equipo --type ~.domain.Equipo --class ~.domain.Jugador --notNull
+field string --fieldName nombre --notNull
+field string --fieldName apellidoPaterno
+field string --fieldName apellidoMaterno
+field date --fieldName fechaNacimiento  --type java.util.Date 
+field file --fieldName foto --contentType JPG --autoUpload 
+field string --fieldName domicilio
+field string --fieldName telefono
+field string --fieldName correoE
+field boolean --fieldName esDelegado
+field reference --fieldName posicion --type ~.catalog.Posicion
+field reference --fieldName status --type ~.catalog.StatusEquipoJugador
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field string --fieldName nombre --class ~.domain.Equipo --notNull
+field string --fieldName nombreCorto --notNull
+field string --fieldName nombreLargo
+field file --fieldName logo --contentType JPG --autoUpload 
+field reference --fieldName status --type ~.catalog.StatusEquipoJugador
+field boolean --fieldName activo
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName partido --type ~.domain.Partido --class ~.domain.CedulaPartido --notNull
+field number --fieldName marcadorEquipoLocal --type int 
+field number --fieldName marcadorEquipoVisitante --type int 
+field string --fieldName observaciones 
+field reference --fieldName status --type ~.catalog.StatusCedula --notNull
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName partido --type ~.domain.Partido --class ~.domain.Alineacion
+field reference --fieldName jugador --type ~.domain.Jugador
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName alineacion --type ~.domain.Alineacion --class ~.domain.Estadisticas --notNull
+field reference --fieldName accion --type ~.catalog.Accion --notNull
+field number --fieldName minuto --type int --notNull
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName conceptoCobro --type ~.catalog.ConceptoCobro --class ~.domain.Cargo --notNull
+field reference --fieldName torneo --type ~.domain.Torneo --notNull
+field reference --fieldName equipo --type ~.domain.Equipo --notNull
+field number --fieldName monto --type double --notNull
+field string --fieldName observaciones
+field reference --fieldName status --type ~.catalog.StatusCargoAbono
+field reference --fieldName abono --type ~.domain.Abono
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+field reference --fieldName cargo --type ~.domain.Cargo --class ~.domain.Abono --notNull
+field reference --fieldName metodoPago --type ~.catalog.MetodoPago --notNull
+field reference --fieldName descuento --type ~.catalog.Descuento
+field string --fieldName observaciones
+field reference --fieldName status --type ~.catalog.StatusCargoAbono --notNull
+field reference --fieldName usuario --type ~.domain.Usuario
+field date --fieldName fechaCreacion --type java.util.Date 
+field date --fieldName fechaModificacion --type java.util.Date 
+finder add --class ~.catalog.Rol --finderName findRolsByActivo
+finder add --class ~.catalog.Accion --finderName findAccionsByActivo
+finder add --class ~.catalog.ConceptoCobro --finderName findConceptoCobroesByActivo
+finder add --class ~.catalog.Descuento --finderName findDescuentoesByActivo
+finder add --class ~.catalog.MetodoPago --finderName findMetodoPagoesByActivo
+finder add --class ~.catalog.Posicion --finderName findPosicionsByActivo
+finder add --class ~.catalog.StatusCargoAbono --finderName findStatusCargoAbonoesByActivo
+finder add --class ~.catalog.StatusCedula --finderName findStatusCedulasByActivo
+finder add --class ~.catalog.StatusEquipoJugador --finderName findStatusEquipoJugadorsByActivo
+finder add --class ~.catalog.StatusPartido --finderName findStatusPartidoesByActivo
+finder add --class ~.catalog.TipoTarjeta --finderName findTipoTarjetasByActivo
+finder add --class ~.catalog.FechaVencimientoTC --finderName findFechaVencimientoTCsByActivo
+finder add --finderName findEmpresasByActivo --class ~.domain.Empresa
+finder add --finderName findEmpresasByNombreComercialLikeAndActivo
+finder add --finderName findEmpresasByNombreLikeAndActivo
+finder add --finderName findSucursalsByEmpresaAndActivo --class ~.domain.Sucursal
+finder add --finderName findTorneosByActivoAndSucursal
+finder add --finderName findTorneosByFechaInicioBetweenAndSucursalAndActivo
+finder add --finderName findConfiguracionTorneosByTorneoAndActivo --class ~.domain.ConfiguracionTorneo
+finder add --finderName findConfiguracionTorneosByTipoCobroAndActivo
+finder add --finderName findConfiguracionTorneosByInscripcionAndActivo
+finder add --finderName findCanchasBySucursalAndActivo --class ~.domain.Cancha
+finder add --finderName findCanchasByActivo
+finder add --finderName findHorariosByActivo --class ~.domain.Horario
+finder add --finderName findHorariosByCanchaAndActivo
+finder add --finderName findUsuariosByEmpresaAndActivo --class ~.domain.Usuario
+finder add --finderName findUsuariosByEmpresaCorreoELikeAndActivo
+finder add --finderName findUsuariosByEmpresaAndNombreLikeAndActivo
+finder add --finderName findUsuariosByApellidoPaternoLike
+finder add --finderName findUsuariosByRolAndActivo
+finder add --finderName findPartidoesByTorneoEquipoLocalAndTorneoEquipoVisitanteAndEquipoLocalAndEquipoVisitante --class ~.domain.Partido 
+finder add --finderName findPartidoesByTorneoEquipoLocalOrTorneoEquipoVisitanteAndEquipoLocalOrEquipoVisitante
+finder add --finderName findPartidoesByTorneoEquipoLocalOrTorneoEquipoVisitante
+finder add --finderName findPartidoesByTorneoEquipoLocalAndTorneoEquipoVisitanteAndEquipoLocalAndEquipoVisitanteAndStatus
+finder add --finderName findPartidoesByTorneoEquipoLocalOrTorneoEquipoVisitanteAndEquipoLocalOrEquipoVisitanteAndStatus
+finder add --finderName findPartidoesByTorneoEquipoLocalOrTorneoEquipoVisitanteAndStatus
+finder add --finderName findPartidoesByCanchaAndStatusAndFechaJuegoBetween
+finder add --finderName findPartidoesByCanchaAndStatusAndFechaJuegoEquals
+finder add --finderName findPartidoesByCanchaAndStatus
+finder add --finderName findPartidoesByFechaJuegoBetweenAndStatus
+finder add --finderName findPartidoesByFechaJuegoEqualsAndStatus
+finder add --finderName findPartidoesByCancha
+finder add --finderName findJugadorsByEquipoAndActivo --class ~.domain.Jugador 
+finder add --finderName findJugadorsByEquipoAndNombreLikeAndActivo
+finder add --finderName findJugadorsByEquipoAndNombreLikeAndApellidoPaternoLikeAndActivo
+finder add --finderName findJugadorsByEquipoAndStatusAndActivo
+finder add --finderName findJugadorsByEquipoAndEsDelegadoAndActivo
+finder add --finderName findJugadorsByEquipoAndPosicionAndActivo
+finder add --finderName findEquipoesByActivo --class ~.domain.Equipo
+finder add --finderName findEquipoesByStatusAndActivo
+finder add --finderName findCedulaPartidoesByPartido --class ~.domain.CedulaPartido
+finder add --finderName findCedulaPartidoesByPartidoAndStatus
+finder add --finderName findAlineacionsByPartido --class ~.domain.Alineacion
+finder add --finderName findAlineacionsByJugador
+finder add --finderName findAlineacionsByPartidoAndFechaCreacionBetween
+finder add --finderName findAlineacionsByJugadorAndFechaCreacionBetween
+finder add --finderName findEstadisticasesByAlineacion --class ~.domain.Estadisticas
+finder add --finderName findEstadisticasesByAlineacionAndActivo
+finder add --finderName findEstadisticasesByAccion
+finder add --finderName findCargoesByConceptoCobroAndFechaCreacionBetween --class ~.domain.Cargo
+finder add --finderName findCargoesByConceptoCobroAndTorneo
+finder add --finderName findCargoesByConceptoCobroAndTorneoAndEquipo
+finder add --finderName findCargoesByConceptoCobroAndStatus
+finder add --finderName findCargoesByConceptoCobroAndTorneoAndFechaModificacionBetween
+finder add --finderName findCargoesByConceptoCobroAndTorneoAndEquipoAndFechaModificacionBetween
+finder add --finderName findAbonoesByDescuentoAndFechaCreacionBetween --class ~.domain.Abono
+finder add --finderName findAbonoesByStatusAndFechaCreacionBetween
+finder add --finderName findAbonoesByMetodoPagoAndFechaCreacionBetween
+finder add --finderName findAbonoesByCargoAndFechaCreacionBetween
+finder add --finderName findTorneoEquipoesByEquipo --class ~.domain.TorneoEquipo
+finder add --finderName findTorneoEquipoesByTorneo
+finder add --finderName findControlPagoesByEmpresa --class ~.doamin.ControlPago
+finder add --finderName findPagoHechoesByFechaVencimientoBetween --class ~.doamin.PagoHecho
+finder add --finderName findPagoHechoesByFechaPagoBetween
+json all --deepSerialize
+web mvc json setup
+web mvc json all --package ~.controller
+web mvc setup
+web mvc all --package ~.controller
+web mvc finder all
+web mvc language --code es
+security setup
+logging setup --level ERROR
+// script --file cancha.roo
+exit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-10-12 12:59:49

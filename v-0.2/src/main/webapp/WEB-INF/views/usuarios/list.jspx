@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_raze_cancha_domain_Usuario" items="${usuarios}" z="vzHLXV+sF0xSpiuIrkeFPewoNIM=">
+        <table:table data="${usuarios}" id="l_com_raze_cancha_domain_Usuario" path="/usuarios" z="KxWqqqG9e0CUMNzpno8uJ2DBUUo=">
+            <table:column id="c_com_raze_cancha_domain_Usuario_empresa" property="empresa" z="U/DAfkBT5xZQMR7nDYJiYTpGvIw="/>
+            <table:column id="c_com_raze_cancha_domain_Usuario_nombre" property="nombre" z="rj/MKLKz7gAAGMqGwikYIQ4k4qY="/>
+            <table:column id="c_com_raze_cancha_domain_Usuario_apellidoPaterno" property="apellidoPaterno" z="4LxJehjCmBd+jhIbIVQNnJ2/CeQ="/>
+            <table:column id="c_com_raze_cancha_domain_Usuario_apellidoMaterno" property="apellidoMaterno" z="04TAgzSUUd/wHp8YsN+aspEPASs="/>
+            <table:column date="true" dateTimePattern="${usuario_fechanacimiento_date_format}" id="c_com_raze_cancha_domain_Usuario_fechaNacimiento" property="fechaNacimiento" z="AMJKEZh7UT/+817CftOqLRGs1zo="/>
+            <table:column id="c_com_raze_cancha_domain_Usuario_domicilio" property="domicilio" z="WEK8RacnV4Cu3HnJjn0a7M5kqx8="/>
+        </table:table>
+    </page:list>
+</div>

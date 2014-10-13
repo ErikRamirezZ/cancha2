@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_catalog_StatusPartido" object="${statuspartido}" path="/statuspartidoes" z="fvmz5p0dnaIJbrembR8GVV3vLws=">
+        <field:display field="nombreStatusPartido" id="s_com_raze_cancha_catalog_StatusPartido_nombreStatusPartido" object="${statuspartido}" z="g+ibFDBj21xoaXax2Kwr+eihpS0="/>
+        <field:display field="descripcion" id="s_com_raze_cancha_catalog_StatusPartido_descripcion" object="${statuspartido}" z="d0bQxFsmOhiUmvmnRBWlMlsg+Kw="/>
+        <field:display field="activo" id="s_com_raze_cancha_catalog_StatusPartido_activo" object="${statuspartido}" z="d9NCL0m/8MyFReW5LgoZP6IcURg="/>
+        <field:display field="usuario" id="s_com_raze_cancha_catalog_StatusPartido_usuario" object="${statuspartido}" z="a/wV3cFJtv0quoKBD3AR8hC58Fs="/>
+        <field:display date="true" dateTimePattern="${statusPartido_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_catalog_StatusPartido_fechaCreacion" object="${statuspartido}" z="DxnHNoSehwA35MFqMM8l1NBhVDQ="/>
+        <field:display date="true" dateTimePattern="${statusPartido_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_catalog_StatusPartido_fechaModificacion" object="${statuspartido}" z="Sk+5SYmlutJDIpg9iEsrEQGoOKU="/>
+    </page:show>
+</div>

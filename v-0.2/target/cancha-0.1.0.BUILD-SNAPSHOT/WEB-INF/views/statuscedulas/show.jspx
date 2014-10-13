@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_catalog_StatusCedula" object="${statuscedula}" path="/statuscedulas" z="u0X7p8dnP2YJyJoo86ELTELU7R4=">
+        <field:display field="nombreStatusCedula" id="s_com_raze_cancha_catalog_StatusCedula_nombreStatusCedula" object="${statuscedula}" z="ipkFXHGtqeTCiUdhrBHDk6exBVs="/>
+        <field:display field="descripcion" id="s_com_raze_cancha_catalog_StatusCedula_descripcion" object="${statuscedula}" z="j/0jH3tIBv7+cvuxmqCuUkkR21Y="/>
+        <field:display field="activo" id="s_com_raze_cancha_catalog_StatusCedula_activo" object="${statuscedula}" z="qTe9ZlS+R4y5heL5QqfsKP/PR7w="/>
+        <field:display field="usuario" id="s_com_raze_cancha_catalog_StatusCedula_usuario" object="${statuscedula}" z="uEUgmofmUcq0iyrx26i/xxWYARo="/>
+        <field:display date="true" dateTimePattern="${statusCedula_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_catalog_StatusCedula_fechaCreacion" object="${statuscedula}" z="YqTgnFrUMV0eXvjCBfkBE4RLeCE="/>
+        <field:display date="true" dateTimePattern="${statusCedula_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_catalog_StatusCedula_fechaModificacion" object="${statuscedula}" z="AfYNVHY8Lm3JHjF3ypRrZRFR3EY="/>
+    </page:show>
+</div>

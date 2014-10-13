@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_raze_cancha_catalog_Posicion" items="${posicions}" z="Bf/HAjuc6CiPIWzoXrqaVWZh1OI=">
+        <table:table data="${posicions}" id="l_com_raze_cancha_catalog_Posicion" path="/posicions" z="wy0mx8rhSj5744Yngap6czWdt1w=">
+            <table:column id="c_com_raze_cancha_catalog_Posicion_nombrePosicion" property="nombrePosicion" z="qDC6sCkdZVmSSiT6PHVRaXtplDs="/>
+            <table:column id="c_com_raze_cancha_catalog_Posicion_descripcion" property="descripcion" z="egZt9wyIFLQWIFM6NJn2f+zFJbk="/>
+            <table:column id="c_com_raze_cancha_catalog_Posicion_activo" property="activo" z="MinwCjpOQTsE7Zzr2UqSSWV6sBE="/>
+            <table:column id="c_com_raze_cancha_catalog_Posicion_usuario" property="usuario" z="pMlodrGEk7BUJSyz0hoJNvBrd8Q="/>
+            <table:column date="true" dateTimePattern="${posicion_fechacreacion_date_format}" id="c_com_raze_cancha_catalog_Posicion_fechaCreacion" property="fechaCreacion" z="3xLe6xHElEWojYlIzZl/0jRdqho="/>
+            <table:column date="true" dateTimePattern="${posicion_fechamodificacion_date_format}" id="c_com_raze_cancha_catalog_Posicion_fechaModificacion" property="fechaModificacion" z="pWdNOjAKn9PyafWer/3KNxHAj1s="/>
+        </table:table>
+    </page:list>
+</div>

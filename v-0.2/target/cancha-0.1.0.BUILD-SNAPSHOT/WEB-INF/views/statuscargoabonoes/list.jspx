@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_raze_cancha_catalog_StatusCargoAbono" items="${statuscargoabonoes}" z="5uRT3X8hKNzBMdfy7Kbu/hIAbgU=">
+        <table:table data="${statuscargoabonoes}" id="l_com_raze_cancha_catalog_StatusCargoAbono" path="/statuscargoabonoes" z="AImFG7kqTkO/Z+yEaygPvgZEN8k=">
+            <table:column id="c_com_raze_cancha_catalog_StatusCargoAbono_nombreStatusCargoAbono" property="nombreStatusCargoAbono" z="d5LZ9Y1ZBGX+MNY5d82yzwvm4XE="/>
+            <table:column id="c_com_raze_cancha_catalog_StatusCargoAbono_descripcion" property="descripcion" z="j226TDzQw5Y6e1PaW0fF3BVQUlM="/>
+            <table:column id="c_com_raze_cancha_catalog_StatusCargoAbono_activo" property="activo" z="+VqmAsCUu1TSeSOjAyJPwGFPE4g="/>
+            <table:column id="c_com_raze_cancha_catalog_StatusCargoAbono_usuario" property="usuario" z="A7NU0y56W6XLxXDXyvqIPE0yJbQ="/>
+            <table:column date="true" dateTimePattern="${statusCargoAbono_fechacreacion_date_format}" id="c_com_raze_cancha_catalog_StatusCargoAbono_fechaCreacion" property="fechaCreacion" z="CY/vY+xFcHtJEo1difCaDvO4L+Q="/>
+            <table:column date="true" dateTimePattern="${statusCargoAbono_fechamodificacion_date_format}" id="c_com_raze_cancha_catalog_StatusCargoAbono_fechaModificacion" property="fechaModificacion" z="L77AbxMdIxLxegJy6eF9BtZq5yY="/>
+        </table:table>
+    </page:list>
+</div>

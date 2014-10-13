@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_raze_cancha_catalog_TipoTarjeta" modelAttribute="tipoTarjeta" path="/tipotarjetas" render="${empty dependencies}" z="UtNyr1V8JZR5p4tvt6ZxlyVAYkM=">
+        <field:input field="nombreTipoTarjeta" id="c_com_raze_cancha_catalog_TipoTarjeta_nombreTipoTarjeta" required="true" z="VaWuXR0K8e1NHC1B7hpeoBOrAlU="/>
+        <field:input field="descripcion" id="c_com_raze_cancha_catalog_TipoTarjeta_descripcion" required="true" z="N0Vu9cB9XhLRtAx5Vl+59fvXTkc="/>
+        <field:checkbox field="activo" id="c_com_raze_cancha_catalog_TipoTarjeta_activo" z="nkMyyYhhWpsL6fsZuwiI9JbAhq4="/>
+        <field:select field="usuario" id="c_com_raze_cancha_catalog_TipoTarjeta_usuario" itemValue="id" items="${usuarios}" path="/usuarios" z="eHUWnZfkRhIG+VlbfbyZUKO6l2k="/>
+        <field:datetime dateTimePattern="${tipoTarjeta_fechacreacion_date_format}" field="fechaCreacion" id="c_com_raze_cancha_catalog_TipoTarjeta_fechaCreacion" z="VRGNaWeHjkpIuYDHPQZHeBYT2Bs="/>
+        <field:datetime dateTimePattern="${tipoTarjeta_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_raze_cancha_catalog_TipoTarjeta_fechaModificacion" z="jZxdzch6UMMYn0pYD/hCy1EAnbM="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_raze_cancha_catalog_TipoTarjeta" render="${not empty dependencies}" z="Az3pdVSYxXySF/rLPS4ASZRg/jo="/>
+</div>

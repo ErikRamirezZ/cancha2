@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_raze_cancha_domain_Horario" items="${horarios}" z="d19W8MTJw6dmuCPoXozLZFw4GSU=">
+        <table:table data="${horarios}" id="l_com_raze_cancha_domain_Horario" path="/horarios" z="cq4/PiPSjR5N/1hy5YObsRMLZDU=">
+            <table:column id="c_com_raze_cancha_domain_Horario_cancha" property="cancha" z="X9oB+hUFGP7QiveogbX5beqZBMo="/>
+            <table:column date="true" dateTimePattern="${horario_horainicio_date_format}" id="c_com_raze_cancha_domain_Horario_horaInicio" property="horaInicio" z="PdGDU+RbMadcxmcMeAfdbDyBzBw="/>
+            <table:column id="c_com_raze_cancha_domain_Horario_duracion" property="duracion" z="pgOPLrvwIvU9Zamga6HQA1ckbqs="/>
+            <table:column id="c_com_raze_cancha_domain_Horario_lunes" property="lunes" z="oF+tnU/ZeoTwypFZnssLc9Zpw70="/>
+            <table:column id="c_com_raze_cancha_domain_Horario_martes" property="martes" z="BhHoKGJ7Y1Zje94rxmbPmnsme8I="/>
+            <table:column id="c_com_raze_cancha_domain_Horario_miercoles" property="miercoles" z="TLo649H1ims4KaDPuVKvdlVdFGY="/>
+        </table:table>
+    </page:list>
+</div>

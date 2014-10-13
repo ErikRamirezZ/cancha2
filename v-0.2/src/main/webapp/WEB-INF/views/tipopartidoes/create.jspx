@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_raze_cancha_catalog_TipoPartido" modelAttribute="tipoPartido" path="/tipopartidoes" render="${empty dependencies}" z="M9rLDgNEVNKeIHQRIEX6JIO5VXk=">
+        <field:input field="nombreTipoPartido" id="c_com_raze_cancha_catalog_TipoPartido_nombreTipoPartido" required="true" z="xbjtr1ufr8+3wZYSLcjHhMyRWqs="/>
+        <field:input field="descripcion" id="c_com_raze_cancha_catalog_TipoPartido_descripcion" required="true" z="sXAwNyX1i+T1evgWcC6AWJ7x0tM="/>
+        <field:checkbox field="activo" id="c_com_raze_cancha_catalog_TipoPartido_activo" z="Rms42LTr3QHIYVZxCoXXUe9xaa4="/>
+        <field:select field="usuario" id="c_com_raze_cancha_catalog_TipoPartido_usuario" itemValue="id" items="${usuarios}" path="/usuarios" z="uLJU1PqGDcJJETVmrcCOvLcKTzs="/>
+        <field:datetime dateTimePattern="${tipoPartido_fechacreacion_date_format}" field="fechaCreacion" id="c_com_raze_cancha_catalog_TipoPartido_fechaCreacion" z="Ov6rd7BTBTrMIqnJN9P0+dfa0SI="/>
+        <field:datetime dateTimePattern="${tipoPartido_fechamodificacion_date_format}" field="fechaModificacion" id="c_com_raze_cancha_catalog_TipoPartido_fechaModificacion" z="wWueXrvWMw101k8fPa7KXMrngls="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_raze_cancha_catalog_TipoPartido" render="${not empty dependencies}" z="TGx3sDybrVUzKxOpImdN6Ws+Bqg="/>
+</div>

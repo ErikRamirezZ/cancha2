@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_raze_cancha_catalog_StatusCedula" items="${statuscedulas}" z="vHBrbUFASW+tNOuP7x/TB68N0js=">
+        <table:table data="${statuscedulas}" id="l_com_raze_cancha_catalog_StatusCedula" path="/statuscedulas" z="sZenhZlB+OXm+zm5XtJd6XjjYr0=">
+            <table:column id="c_com_raze_cancha_catalog_StatusCedula_nombreStatusCedula" property="nombreStatusCedula" z="mZFlvsqkciGsbAmAhR+SrVovshI="/>
+            <table:column id="c_com_raze_cancha_catalog_StatusCedula_descripcion" property="descripcion" z="WGnMtQWpgT24X1gznsqV0yCUx4Q="/>
+            <table:column id="c_com_raze_cancha_catalog_StatusCedula_activo" property="activo" z="NlHlaqCVv4hyWAQNRzs6tVBBwIA="/>
+            <table:column id="c_com_raze_cancha_catalog_StatusCedula_usuario" property="usuario" z="nJOXoNFF6mRsCooy5woWYMkoPIE="/>
+            <table:column date="true" dateTimePattern="${statusCedula_fechacreacion_date_format}" id="c_com_raze_cancha_catalog_StatusCedula_fechaCreacion" property="fechaCreacion" z="3uDS7k2tlyoQg9bb/k4TSNbjKlM="/>
+            <table:column date="true" dateTimePattern="${statusCedula_fechamodificacion_date_format}" id="c_com_raze_cancha_catalog_StatusCedula_fechaModificacion" property="fechaModificacion" z="CGm97s9SfonNSODXg5y1uizOHVI="/>
+        </table:table>
+    </page:list>
+</div>

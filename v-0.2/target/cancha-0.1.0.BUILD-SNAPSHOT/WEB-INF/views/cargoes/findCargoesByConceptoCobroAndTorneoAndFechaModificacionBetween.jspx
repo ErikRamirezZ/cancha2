@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByConceptoCobroAndTorneoAndFechaModificacionBetween" id="ff_com_raze_cancha_domain_Cargo" path="/cargoes" z="mqNigkdCk6dSsOZCAowp+9OODyM=">
+        <field:select disableFormBinding="true" field="conceptoCobro" id="f_com_raze_cancha_domain_Cargo_conceptoCobro" itemValue="id" items="${conceptocobroes}" path="/conceptocobroes" required="true" z="LHBnWEM1msA4tH5GqEcuOvjTaMk="/>
+        <field:select disableFormBinding="true" field="torneo" id="f_com_raze_cancha_domain_Cargo_torneo" itemValue="id" items="${torneos}" path="/torneos" required="true" z="URKQ81Tl27RppycxcJgyI/lKa4I="/>
+        <field:datetime dateTimePattern="${cargo_fechamodificacion_date_format}" disableFormBinding="true" field="minFechaModificacion" id="f_com_raze_cancha_domain_Cargo_minFechaModificacion" required="true" z="6td+idwv0omHtL7bUN/vEs+cfJ4="/>
+        <field:datetime dateTimePattern="${cargo_fechamodificacion_date_format}" disableFormBinding="true" field="maxFechaModificacion" id="f_com_raze_cancha_domain_Cargo_maxFechaModificacion" required="true" z="n/do40qyVM+iOR2OXJ4OTqiMYfo="/>
+    </form:find>
+</div>

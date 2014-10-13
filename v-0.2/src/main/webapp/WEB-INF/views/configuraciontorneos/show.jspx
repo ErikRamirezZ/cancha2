@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_domain_ConfiguracionTorneo" object="${configuraciontorneo}" path="/configuraciontorneos" z="DKB2eBrCicX7xfJv0FPINWJ9Bf4=">
+        <field:display field="torneo" id="s_com_raze_cancha_domain_ConfiguracionTorneo_torneo" object="${configuraciontorneo}" z="aTafov3Aez8fh7+J8ma/VG8zBXE="/>
+        <field:display field="inscripcion" id="s_com_raze_cancha_domain_ConfiguracionTorneo_inscripcion" object="${configuraciontorneo}" z="f7RSmZQ7ctCVOhfe2kq2rpYugxw="/>
+        <field:display field="costoIncripcion" id="s_com_raze_cancha_domain_ConfiguracionTorneo_costoIncripcion" object="${configuraciontorneo}" z="A+1uL8rdFUhzwEWSQyAfVCyCwn0="/>
+        <field:display field="tipoCobro" id="s_com_raze_cancha_domain_ConfiguracionTorneo_tipoCobro" object="${configuraciontorneo}" z="s2DFk4Fu52/0iXAztpN2HEMYF8Q="/>
+        <field:display field="costo" id="s_com_raze_cancha_domain_ConfiguracionTorneo_costo" object="${configuraciontorneo}" z="xKCpuY1Oa1gE/hwnFOQ6WZRbcq8="/>
+        <field:display field="numeroPagos" id="s_com_raze_cancha_domain_ConfiguracionTorneo_numeroPagos" object="${configuraciontorneo}" z="JefRELYWXcy2LHhiv+gDlEMJ5Mo="/>
+        <field:display field="numeroJugadoresXEquipo" id="s_com_raze_cancha_domain_ConfiguracionTorneo_numeroJugadoresXEquipo" object="${configuraciontorneo}" z="Xi2XrNG9Wpjd7zQ/moeBaTWKat0="/>
+        <field:display field="diasJuego" id="s_com_raze_cancha_domain_ConfiguracionTorneo_diasJuego" object="${configuraciontorneo}" z="iBXirQmLEu85XXSdElCSQ/rclKc="/>
+        <field:display field="activo" id="s_com_raze_cancha_domain_ConfiguracionTorneo_activo" object="${configuraciontorneo}" z="3p3FSLKy1IRQQouFgxRQhpGJFyg="/>
+        <field:display field="usuario" id="s_com_raze_cancha_domain_ConfiguracionTorneo_usuario" object="${configuraciontorneo}" z="jL1TooV4dtexavPExsdawQ68ZUg="/>
+        <field:display date="true" dateTimePattern="${configuracionTorneo_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_domain_ConfiguracionTorneo_fechaCreacion" object="${configuraciontorneo}" z="hR9+5jga3fKIYL2S+muti+wuig8="/>
+        <field:display date="true" dateTimePattern="${configuracionTorneo_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_domain_ConfiguracionTorneo_fechaModificacion" object="${configuraciontorneo}" z="DRjmmTv4oLRD6SNdg83G3ICv9iU="/>
+    </page:show>
+</div>

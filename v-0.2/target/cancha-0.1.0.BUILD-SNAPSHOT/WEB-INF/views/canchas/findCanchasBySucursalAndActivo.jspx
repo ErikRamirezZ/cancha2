@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="BySucursalAndActivo" id="ff_com_raze_cancha_domain_Cancha" path="/canchas" z="tfcmrr/zd9QXYuvA4OPh3/8fHXg=">
+        <field:select disableFormBinding="true" field="sucursal" id="f_com_raze_cancha_domain_Cancha_sucursal" itemValue="id" items="${sucursals}" path="/sucursals" required="true" z="PrkIAhPCiSI6p0C2j5sDzNlbXRU="/>
+        <field:checkbox disableFormBinding="true" field="activo" id="f_com_raze_cancha_domain_Cancha_activo" z="CxoP5VHmjxfkJcxubdM7GYIzRYc="/>
+    </form:find>
+</div>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="torneoequipoes/list">
+        <put-attribute name="body" value="/WEB-INF/views/torneoequipoes/list.jspx"/>
+    </definition>
+<definition extends="default" name="torneoequipoes/show">
+        <put-attribute name="body" value="/WEB-INF/views/torneoequipoes/show.jspx"/>
+    </definition>
+<definition extends="default" name="torneoequipoes/create">
+        <put-attribute name="body" value="/WEB-INF/views/torneoequipoes/create.jspx"/>
+    </definition>
+<definition extends="default" name="torneoequipoes/update">
+        <put-attribute name="body" value="/WEB-INF/views/torneoequipoes/update.jspx"/>
+    </definition>
+<definition extends="default" name="torneoequipoes/findTorneoEquipoesByEquipo">
+        <put-attribute name="body" value="/WEB-INF/views/torneoequipoes/findTorneoEquipoesByEquipo.jspx"/>
+    </definition>
+<definition extends="default" name="torneoequipoes/findTorneoEquipoesByTorneo">
+        <put-attribute name="body" value="/WEB-INF/views/torneoequipoes/findTorneoEquipoesByTorneo.jspx"/>
+    </definition>
+</tiles-definitions>

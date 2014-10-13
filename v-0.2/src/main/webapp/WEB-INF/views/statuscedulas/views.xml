@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="statuscedulas/list">
+        <put-attribute name="body" value="/WEB-INF/views/statuscedulas/list.jspx"/>
+    </definition>
+<definition extends="default" name="statuscedulas/show">
+        <put-attribute name="body" value="/WEB-INF/views/statuscedulas/show.jspx"/>
+    </definition>
+<definition extends="default" name="statuscedulas/create">
+        <put-attribute name="body" value="/WEB-INF/views/statuscedulas/create.jspx"/>
+    </definition>
+<definition extends="default" name="statuscedulas/update">
+        <put-attribute name="body" value="/WEB-INF/views/statuscedulas/update.jspx"/>
+    </definition>
+<definition extends="default" name="statuscedulas/findStatusCedulasByActivo">
+        <put-attribute name="body" value="/WEB-INF/views/statuscedulas/findStatusCedulasByActivo.jspx"/>
+    </definition>
+</tiles-definitions>

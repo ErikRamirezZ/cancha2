@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_domain_TorneoEquipo" object="${torneoequipo}" path="/torneoequipoes" z="IVXb2jmkjufc5hF23yCYRrn/iIY=">
+        <field:display field="torneo" id="s_com_raze_cancha_domain_TorneoEquipo_torneo" object="${torneoequipo}" z="uUO1AfgkrRMb1Ert8Y9FW64GhzE="/>
+        <field:display field="equipo" id="s_com_raze_cancha_domain_TorneoEquipo_equipo" object="${torneoequipo}" z="t3KmVEnBnfCVCPRw7HmCdQFG3pI="/>
+        <field:display field="activo" id="s_com_raze_cancha_domain_TorneoEquipo_activo" object="${torneoequipo}" z="jjYIvggAXicGFgzGH6mQHdQ1Ahk="/>
+        <field:display field="usuario" id="s_com_raze_cancha_domain_TorneoEquipo_usuario" object="${torneoequipo}" z="492760wafee85IYfFEb6M+3MWg0="/>
+        <field:display date="true" dateTimePattern="${torneoEquipo_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_domain_TorneoEquipo_fechaCreacion" object="${torneoequipo}" z="iZyuUkeD5JLQLkW+06r3uW/jzCU="/>
+        <field:display date="true" dateTimePattern="${torneoEquipo_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_domain_TorneoEquipo_fechaModificacion" object="${torneoequipo}" z="F+Ibf2noWieau2VYYfJGLtdIB18="/>
+    </page:show>
+</div>

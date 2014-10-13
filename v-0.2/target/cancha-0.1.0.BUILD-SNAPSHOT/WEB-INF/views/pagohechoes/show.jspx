@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_raze_cancha_domain_PagoHecho" object="${pagohecho}" path="/pagohechoes" z="A5Jy/r0VjqqQu+f/Al9Cv8Hf3Y4=">
+        <field:display field="controlPago" id="s_com_raze_cancha_domain_PagoHecho_controlPago" object="${pagohecho}" z="Iojoa9Q6ANkJty+GEI/WHqMvxfo="/>
+        <field:display field="monto" id="s_com_raze_cancha_domain_PagoHecho_monto" object="${pagohecho}" z="9CJ/GHNuCOM9PZxEDXptDnYYh2c="/>
+        <field:display field="descuento" id="s_com_raze_cancha_domain_PagoHecho_descuento" object="${pagohecho}" z="BCcRtQj9ug5AkBsJmU9gCKbZZPc="/>
+        <field:display date="true" dateTimePattern="${pagoHecho_fechapago_date_format}" field="fechaPago" id="s_com_raze_cancha_domain_PagoHecho_fechaPago" object="${pagohecho}" z="39GbD4y4rN/Nsr+6kqpmNIOvzt8="/>
+        <field:display date="true" dateTimePattern="${pagoHecho_fechavencimiento_date_format}" field="fechaVencimiento" id="s_com_raze_cancha_domain_PagoHecho_fechaVencimiento" object="${pagohecho}" z="yCUjylcc7btf60JCGYpB57R7cWc="/>
+        <field:display field="usuario" id="s_com_raze_cancha_domain_PagoHecho_usuario" object="${pagohecho}" z="9K/qJo7tLMxEYwvnf+TuQNf67+g="/>
+        <field:display date="true" dateTimePattern="${pagoHecho_fechacreacion_date_format}" field="fechaCreacion" id="s_com_raze_cancha_domain_PagoHecho_fechaCreacion" object="${pagohecho}" z="49MNI1Rl/0NNnAjTyBaMXww4LR8="/>
+        <field:display date="true" dateTimePattern="${pagoHecho_fechamodificacion_date_format}" field="fechaModificacion" id="s_com_raze_cancha_domain_PagoHecho_fechaModificacion" object="${pagohecho}" z="bT35mQQr7aXlafLUfaleM8hUmdA="/>
+    </page:show>
+</div>
